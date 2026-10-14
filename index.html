@@ -1,0 +1,1181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Kingdom · Christopher &amp; Pixie Hager</title>
+
+<!-- Published quietly 2026-10-14. Source of truth: this file. Lines that are Pixie's story are held back until she has read them. -->
+<meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+
+<meta name="author" content="Christopher Hager">
+<meta name="description" content="The Kingdom. A field guide for couples reclaiming their sovereignty, and the road back home to each other.">
+<meta name="theme-color" content="#120A1A">
+
+<style>
+/* ── Self-hosted type. Nothing on this page reaches the internet. ───── */
+@font-face{font-family:'Space Grotesk';src:url('./fonts/SpaceGrotesk-a57c9413.woff2') format('woff2');font-weight:300 700;font-style:normal;font-display:swap;}
+@font-face{font-family:'Space Grotesk';src:url('./fonts/SpaceGrotesk-e911c2d9.woff2') format('woff2');font-weight:300 700;font-style:normal;font-display:swap;unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;}
+@font-face{font-family:'DM Sans';src:url('./fonts/DMSans-f6298972.woff2') format('woff2');font-weight:100 1000;font-style:normal;font-display:swap;}
+@font-face{font-family:'DM Sans';src:url('./fonts/DMSans-151a53ae.woff2') format('woff2');font-weight:100 1000;font-style:normal;font-display:swap;unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;}
+@font-face{font-family:'Instrument Serif';src:url('./fonts/InstrumentSerif-99cc6edf.woff2') format('woff2');font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:'Instrument Serif';src:url('./fonts/InstrumentSerif-fa1a1a83.woff2') format('woff2');font-weight:400;font-style:italic;font-display:swap;}
+
+:root{
+  --crown:#1B0C20;
+  --crown-2:#2A1130;
+  --night:#120A1A;
+  --mirror:#E7E7E7;
+  --ankh:#A57626;
+  --ankh-hi:#D9A648;
+  --triton:#7C2D50;
+  --mystic:#3B1A4C;
+  --gaia:#1D3237;
+  --pine:#24443F;
+  --ember:#E8732A;
+  --ember-hi:#F7A35C;
+  --glacier:#8FB0F0;
+  --paper:#FBF8F4;
+  --paper-2:#F4EEE6;
+  --ink:#1B0C20;
+  --ink-2:#584C5E;
+  --rule:rgba(27,12,32,.14);
+  --display:'Instrument Serif',Georgia,serif;
+  --head:'Space Grotesk',"Helvetica Neue",Arial,sans-serif;
+  --body:'DM Sans',-apple-system,"Segoe UI",Roboto,sans-serif;
+  --trail-x:linear-gradient(to right,#1D3237 0%,#24443F 22%,#A57626 50%,#E8732A 72%,#7C2D50 100%);
+  --navh:58px;
+}
+
+*{box-sizing:border-box;}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth;}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);font-size:18px;line-height:1.7;}
+img{max-width:100%;}
+button{font:inherit;}
+a{color:inherit;}
+.wrap{max-width:780px;margin:0 auto;padding:0 28px;}
+.wide{max-width:1180px;margin:0 auto;padding:0 28px;}
+.dark{color:var(--mirror);position:relative;overflow:hidden;}
+.dots::after{
+  content:"";position:absolute;inset:0;pointer-events:none;opacity:.5;
+  background-image:radial-gradient(rgba(231,231,231,.10) 1px, transparent 1.2px);
+  background-size:7px 7px;
+}
+.dark > *{position:relative;z-index:1;}
+section{scroll-margin-top:calc(var(--navh) + 18px);}
+
+.mockflag{
+  position:fixed;right:14px;bottom:14px;z-index:80;font-family:var(--head);font-size:10px;font-weight:600;letter-spacing:.22em;
+  text-transform:uppercase;background:var(--ember);color:var(--night);padding:9px 13px;border-radius:2px;box-shadow:0 6px 24px rgba(0,0,0,.3);
+}
+.ask{
+  display:block;margin:18px 0 0;padding:14px 18px;border:1px dashed var(--ember);background:rgba(232,115,42,.07);
+  font-size:.92rem;line-height:1.55;color:var(--ink-2);border-radius:2px;
+}
+.ask b{font-family:var(--head);font-size:9.5px;letter-spacing:.24em;text-transform:uppercase;color:var(--ember);display:block;margin-bottom:4px;}
+.dark .ask{color:rgba(231,231,231,.72);background:rgba(232,115,42,.08);}
+
+.eyebrow{
+  font-family:var(--head);font-size:10.5px;font-weight:600;letter-spacing:.28em;
+  text-transform:uppercase;color:var(--ankh);margin:0 0 12px;display:flex;align-items:center;gap:12px;
+}
+.dark .eyebrow{color:var(--ankh-hi);}
+.eyebrow img{width:20px;height:auto;opacity:.85;}
+h2{font-family:var(--display);font-weight:400;font-size:clamp(2.3rem,5.6vw,3.5rem);line-height:1.04;letter-spacing:-.015em;margin:0 0 .5em;}
+h2 em{font-style:italic;color:var(--triton);}
+.dark h2{color:#fff;}
+.dark h2 em{color:var(--ankh-hi);}
+.lead{font-size:1.2rem;line-height:1.62;}
+
+/* ── Hero ───────────────────────────────────────────────────────────── */
+.hero{
+  background:radial-gradient(ellipse 120% 90% at 50% 0%, #2A1130 0%, #1B0C20 46%, #120A1A 100%);
+  padding:56px 0 0;text-align:center;
+}
+.hero img.logo{width:190px;height:auto;opacity:.95;margin-bottom:36px;}
+.kicker{font-family:var(--head);font-size:11px;font-weight:600;letter-spacing:.32em;text-transform:uppercase;color:var(--ankh-hi);margin:0 0 20px;}
+h1{font-family:var(--display);font-weight:400;font-size:clamp(3.6rem,13vw,8rem);line-height:.88;letter-spacing:-.025em;margin:0;color:#fff;}
+h1 em{font-style:italic;color:var(--ankh-hi);}
+.hero .sub{font-family:var(--display);font-style:italic;font-size:clamp(1.4rem,4vw,2.1rem);color:var(--ember-hi);margin:16px 0 0;}
+.hero .dek{font-size:1.04rem;line-height:1.6;max-width:34em;margin:22px auto 0;color:rgba(231,231,231,.74);}
+.hero-cta{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:26px;}
+.btn{
+  display:inline-flex;align-items:center;gap:10px;text-decoration:none;cursor:pointer;
+  font-family:var(--head);font-size:11px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;
+  padding:15px 24px;border-radius:2px;border:1px solid var(--ankh);color:#fff;background:transparent;
+  transition:background .25s,color .25s,border-color .25s;
+}
+.btn:hover,.btn:focus-visible{background:var(--ankh);color:var(--crown);}
+.btn.solid{background:var(--ankh);color:var(--crown);}
+.btn.solid:hover,.btn.solid:focus-visible{background:var(--ankh-hi);border-color:var(--ankh-hi);}
+.btn.ink{color:var(--ink);}
+.btn.ink:hover{color:var(--crown);}
+.range-wrap{margin-top:30px;}
+#range{width:100%;height:auto;display:block;}
+.byline{margin:0;padding:18px 0 30px;font-family:var(--head);font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;color:rgba(231,231,231,.5);background:#120A1A;}
+
+/* hero motion */
+.tw{animation:twinkle 4s ease-in-out infinite;}
+@keyframes twinkle{0%,100%{opacity:1;}50%{opacity:.3;}}
+.flame{transform-box:fill-box;transform-origin:50% 100%;animation:flick .42s ease-in-out infinite alternate;}
+.flame.f2{animation-duration:.55s;animation-delay:-.2s;}
+.flame.f3{animation-duration:.36s;animation-delay:-.1s;}
+@keyframes flick{0%{transform:scaleY(.82) skewX(-4deg);}100%{transform:scaleY(1.12) skewX(4deg);}}
+.spark{animation:spark 2.6s ease-out infinite;opacity:0;}
+.spark.s2{animation-delay:.9s;} .spark.s3{animation-delay:1.7s;}
+@keyframes spark{0%{transform:translate(0,0);opacity:0;}10%{opacity:1;}100%{transform:translate(6px,-46px);opacity:0;}}
+.glowpulse{animation:gp 3.2s ease-in-out infinite;}
+@keyframes gp{0%,100%{opacity:.55;}50%{opacity:1;}}
+.flag{transform-box:fill-box;transform-origin:0% 50%;animation:flag 1.4s ease-in-out infinite alternate;}
+@keyframes flag{from{transform:skewY(-6deg) scaleX(.92);}to{transform:skewY(5deg) scaleX(1.04);}}
+.trail-dash{stroke-dasharray:3 7;animation:march 6s linear infinite;}
+@keyframes march{to{stroke-dashoffset:-100;}}
+
+/* ── Top navigation ────────────────────────────────────────────────── */
+.topnav{
+  position:sticky;top:0;z-index:50;background:rgba(18,10,26,.94);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
+  border-bottom:1px solid rgba(165,118,38,.28);
+}
+.topnav::before{content:"";position:absolute;left:0;right:0;top:0;height:2px;background:var(--trail-x);opacity:.9;}
+.topnav .in{max-width:1240px;margin:0 auto;display:flex;align-items:center;gap:2px;height:var(--navh);padding:0 14px;overflow-x:auto;scrollbar-width:none;}
+.topnav .in::-webkit-scrollbar{display:none;}
+.topnav .home{flex:0 0 auto;margin-right:10px;display:flex;align-items:center;}
+.topnav .home img{width:22px;height:auto;opacity:.9;}
+.topnav a.nl{
+  flex:0 0 auto;display:flex;align-items:center;gap:8px;text-decoration:none;
+  font-family:var(--head);font-size:10.5px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;
+  color:rgba(231,231,231,.62);padding:9px 12px;border-radius:2px;transition:color .2s,background .2s;position:relative;
+}
+.topnav a.nl i{font-style:normal;font-family:var(--display);font-size:13px;letter-spacing:0;color:var(--ankh-hi);}
+.topnav a.nl:hover,.topnav a.nl:focus-visible{color:#fff;background:rgba(255,255,255,.05);}
+.topnav a.nl.on{color:#fff;}
+.topnav a.nl.on::after{content:"";position:absolute;left:12px;right:12px;bottom:3px;height:1px;background:var(--ember);}
+
+/* ── Paper sections ─────────────────────────────────────────────────── */
+.sec{padding:92px 0 60px;}
+.sec p{margin:0 0 1.2em;}
+blockquote.pq{
+  margin:2em 0;padding:0 0 0 26px;border-left:3px solid var(--ember);
+  font-family:var(--display);font-size:clamp(1.35rem,3.4vw,1.7rem);line-height:1.36;color:var(--mystic);
+}
+blockquote.pq p{margin:0 0 .45em;}
+blockquote.pq cite{display:block;font-style:normal;font-family:var(--head);font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-2);margin-top:10px;}
+.facts{display:grid;grid-template-columns:repeat(4,1fr);margin:46px 0 10px;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);}
+.fact{padding:26px 18px 24px;text-align:center;}
+.fact + .fact{border-left:1px solid var(--rule);}
+.fact b{display:block;font-family:var(--display);font-weight:400;font-size:2.7rem;line-height:1;color:var(--triton);}
+.fact span{display:block;margin-top:10px;font-family:var(--head);font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-2);line-height:1.5;}
+
+/* ── The lost test ─────────────────────────────────────────────────── */
+.lost{padding:100px 0 90px;background:radial-gradient(ellipse 90% 70% at 50% 0%, rgba(232,115,42,.20) 0%, transparent 70%), radial-gradient(ellipse 130% 120% at 50% 40%, #1B0C20 0%, #1D3237 120%);}
+.lost .head{max-width:760px;margin:0 auto 34px;text-align:center;}
+.lost .head p{color:rgba(231,231,231,.74);}
+.qgrid{display:grid;grid-template-columns:1fr 380px;gap:34px;align-items:start;max-width:1120px;margin:0 auto;}
+.qlist{display:flex;flex-direction:column;gap:10px;}
+.qrow{display:grid;grid-template-columns:28px 1fr auto;gap:14px;align-items:center;padding:14px 16px;border:1px solid rgba(165,118,38,.22);background:rgba(18,10,26,.45);transition:border-color .2s,background .2s;}
+.qrow.answered{border-color:rgba(232,115,42,.45);}
+.qrow .n{font-family:var(--display);font-size:1.25rem;color:var(--ankh-hi);}
+.qrow p{margin:0;font-size:.98rem;line-height:1.45;color:#fff;}
+.seg{display:flex;border:1px solid rgba(231,231,231,.2);border-radius:40px;overflow:hidden;}
+.seg button{background:none;border:0;color:rgba(231,231,231,.7);font-family:var(--head);font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;padding:8px 11px;cursor:pointer;transition:background .2s,color .2s;}
+.seg button + button{border-left:1px solid rgba(231,231,231,.14);}
+.seg button[aria-pressed="true"]{background:var(--ember);color:var(--night);}
+.seg button:focus-visible{outline:2px solid var(--ankh-hi);outline-offset:-2px;}
+.gauge{position:sticky;top:calc(var(--navh) + 20px);border:1px solid rgba(165,118,38,.3);background:rgba(0,0,0,.28);padding:22px 22px 24px;}
+.gauge svg{width:100%;height:auto;display:block;}
+.gauge small{font-family:var(--head);font-size:9.5px;letter-spacing:.24em;text-transform:uppercase;font-weight:600;color:var(--ember-hi);}
+.gauge h3{font-family:var(--display);font-weight:400;font-size:2rem;line-height:1.05;margin:6px 0 8px;color:#fff;}
+.gauge p{font-size:.95rem;line-height:1.58;color:rgba(231,231,231,.8);margin:0 0 10px;}
+.gauge .meta{font-family:var(--head);font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:rgba(231,231,231,.45);}
+#walker{transition:transform 1.1s cubic-bezier(.5,.1,.2,1);}
+.note-dk{font-size:.86rem;color:rgba(231,231,231,.5);text-align:center;margin:30px auto 0;max-width:44em;}
+
+/* ── The kingdom: station cards with plates ────────────────────────── */
+.climb-head{padding:96px 0 10px;}
+.stations{padding:30px 0 70px;}
+.stations .wide{display:flex;flex-direction:column;gap:28px;}
+.card{
+  background:#fff;border:1px solid var(--rule);border-left:4px solid var(--c);
+  display:grid;grid-template-columns:1fr 320px;position:relative;scroll-margin-top:calc(var(--navh) + 18px);
+}
+.card-main{padding:36px 40px 32px;min-width:0;}
+.card .num{font-family:var(--head);font-size:10.5px;font-weight:600;letter-spacing:.26em;text-transform:uppercase;color:var(--cd);display:flex;gap:12px;align-items:center;margin-bottom:8px;}
+.card .num span{color:var(--ink-2);font-weight:500;}
+.card h3{font-family:var(--display);font-weight:400;font-size:clamp(1.8rem,3.8vw,2.4rem);line-height:1.06;margin:0 0 16px;letter-spacing:-.01em;}
+.card p{margin:0 0 1em;font-size:1.02rem;line-height:1.66;}
+.card ol.counsel{margin:0 0 1.1em;padding-left:1.3em;font-size:1rem;line-height:1.6;}
+.card ol.counsel li{margin-bottom:.55em;padding-left:.2em;}
+.card ol.counsel li::marker{font-family:var(--display);color:var(--cd);}
+.card ol.counsel b{font-weight:600;color:var(--ink);}
+blockquote.tq{
+  margin:0 0 16px;font-family:var(--display);font-size:clamp(1.25rem,2.8vw,1.55rem);line-height:1.38;color:var(--mystic);
+  padding-left:22px;border-left:2px solid var(--c);
+}
+.try{margin:18px 0 0;padding:16px 18px;background:var(--paper);border-top:2px solid var(--c);font-size:.96rem;line-height:1.55;}
+.try b{font-family:var(--head);font-size:9.5px;letter-spacing:.24em;text-transform:uppercase;font-weight:600;color:var(--cd);display:block;margin-bottom:4px;}
+.plate{
+  margin:0;background:radial-gradient(ellipse 120% 90% at 50% 0%, var(--glow) 0%, transparent 70%), var(--crown);
+  display:flex;flex-direction:column;justify-content:center;padding:20px 18px 18px;position:relative;overflow:hidden;
+}
+.plate::after{content:"";position:absolute;inset:0;pointer-events:none;opacity:.45;background-image:radial-gradient(rgba(231,231,231,.10) 1px, transparent 1.2px);background-size:7px 7px;}
+.plate > *{position:relative;z-index:1;}
+.plate svg{width:100%;height:auto;display:block;}
+.plate figcaption{margin-top:12px;text-align:center;font-family:var(--display);font-style:italic;font-size:1.1rem;line-height:1.3;color:rgba(231,231,231,.88);}
+.plate figcaption small{display:block;font-family:var(--head);font-style:normal;font-size:9px;letter-spacing:.24em;text-transform:uppercase;color:var(--ankh-hi);margin-bottom:4px;}
+.plate .ctrl{margin-top:12px;text-align:center;}
+.pbtn{
+  font-family:var(--head);font-size:10px;letter-spacing:.2em;text-transform:uppercase;font-weight:600;cursor:pointer;
+  background:transparent;color:#fff;border:1px solid var(--ankh);padding:9px 14px;border-radius:2px;transition:background .2s,color .2s;
+}
+.pbtn:hover,.pbtn:focus-visible,.pbtn[aria-pressed="true"]{background:var(--ankh);color:var(--crown);}
+
+/* plate motion */
+.needle{transform-box:view-box;transform-origin:120px 112px;animation:needle 9s ease-in-out infinite;}
+@keyframes needle{0%{transform:rotate(0);}8%{transform:rotate(130deg);}16%{transform:rotate(-95deg);}25%{transform:rotate(210deg);}34%{transform:rotate(60deg);}42%{transform:rotate(-30deg);}50%{transform:rotate(12deg);}56%,100%{transform:rotate(0);}}
+.homelight{animation:homel 9s ease-in-out infinite;}
+@keyframes homel{0%,52%{opacity:.25;}60%,94%{opacity:1;}100%{opacity:.25;}}
+.whiteout{animation:whiteout 10s ease-in-out infinite;}
+@keyframes whiteout{0%,8%{opacity:.88;}30%,85%{opacity:.08;}100%{opacity:.88;}}
+.cairn{opacity:.25;animation:cairn 10s ease-in-out infinite;}
+@keyframes cairn{0%,100%{opacity:.22;}10%{opacity:.22;}18%,88%{opacity:1;}}
+.cairn.c2{animation-delay:.6s;} .cairn.c3{animation-delay:1.2s;} .cairn.c4{animation-delay:1.8s;} .tentlit{animation:tentlit 10s ease-in-out infinite;}
+@keyframes tentlit{0%,30%{opacity:.15;}40%,88%{opacity:1;}100%{opacity:.15;}}
+.clockhand{transform-box:view-box;transform-origin:120px 64px;animation:hand 9s linear infinite;}
+@keyframes hand{0%{transform:rotate(0);}60%,100%{transform:rotate(300deg);}}
+.fast{animation:pace 9s ease-in-out infinite;}
+@keyframes pace{0%{transform:translateX(0);}6%{transform:translateX(14px);}12%{transform:translateX(-6px);}18%{transform:translateX(16px);}24%{transform:translateX(-4px);}30%{transform:translateX(14px);}36%{transform:translateX(-6px);}42%{transform:translateX(16px);}48%{transform:translateX(-2px);}56%{transform:translateX(0);}70%,92%{transform:translateX(56px);}100%{transform:translateX(0);}}
+.slow{animation:slow 9s ease-in-out infinite;}
+@keyframes slow{0%,56%{transform:translateX(0);opacity:.35;}70%,92%{transform:translateX(-56px);opacity:1;}100%{transform:translateX(0);opacity:.35;}}
+.meetfire{animation:meet 9s ease-in-out infinite;}
+@keyframes meet{0%,62%{opacity:0;}72%,92%{opacity:1;}100%{opacity:0;}}
+.hb{transform-box:fill-box;transform-origin:50% 60%;animation:hb 2.6s ease-in-out infinite;}
+@keyframes hb{0%,100%{transform:scale(1);}50%{transform:scale(.86);}}
+.wavestrip{animation:strip 2.4s linear infinite;}
+@keyframes strip{from{transform:translateX(0);}to{transform:translateX(-40px);}}
+.ring{transform-box:fill-box;transform-origin:50% 50%;animation:ring 4.8s ease-out infinite;opacity:0;}
+.ring.r2{animation-delay:1.2s;} .ring.r3{animation-delay:2.4s;} .ring.r4{animation-delay:3.6s;}
+@keyframes ring{0%{transform:scale(.15);opacity:.9;}100%{transform:scale(1);opacity:0;}}
+.role{opacity:.2;animation:role 7.2s ease-in-out infinite;}
+@keyframes role{0%,100%{opacity:.18;}12%,40%{opacity:1;}55%{opacity:.18;}}
+.door{animation:gp 3.2s ease-in-out infinite;}
+
+/* ── Fight language finder ─────────────────────────────────────────── */
+.fight{padding:100px 0 90px;background:radial-gradient(ellipse 120% 100% at 50% 50%, #22102A 0%, #1B0C20 70%);}
+.fgrid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:34px 0 0;}
+.who{border:1px solid rgba(165,118,38,.3);padding:24px 24px 22px;background:rgba(0,0,0,.2);}
+.who h4{margin:0 0 4px;font-family:var(--display);font-weight:400;font-size:1.7rem;color:#fff;}
+.who p{margin:0 0 14px;font-size:.92rem;color:rgba(231,231,231,.65);}
+.opts{display:flex;flex-direction:column;gap:8px;}
+.opt{text-align:left;background:rgba(255,255,255,.03);border:1px solid rgba(231,231,231,.16);color:#fff;padding:13px 15px;border-radius:2px;cursor:pointer;font-size:.96rem;line-height:1.4;transition:border-color .2s,background .2s;}
+.opt small{display:block;font-family:var(--head);font-size:9.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--ankh-hi);margin-bottom:3px;}
+.opt[aria-pressed="true"]{border-color:var(--ember);background:rgba(232,115,42,.14);}
+.opt:focus-visible{outline:2px solid var(--ankh-hi);outline-offset:2px;}
+.verdict{margin-top:22px;padding:26px 28px;border-left:3px solid var(--ember);background:rgba(255,255,255,.04);min-height:7em;}
+.verdict small{font-family:var(--head);font-size:9.5px;letter-spacing:.24em;text-transform:uppercase;color:var(--ember-hi);font-weight:600;}
+.verdict p{font-family:var(--display);font-size:clamp(1.3rem,3vw,1.6rem);line-height:1.36;color:#fff;margin:8px 0 0;}
+.verdict p.sm{font-family:var(--body);font-size:.96rem;color:rgba(231,231,231,.75);margin-top:12px;}
+
+/* ── Agreements ────────────────────────────────────────────────────── */
+.agree{padding:96px 0 70px;}
+.agrid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:34px;}
+.agrid.court{grid-template-columns:repeat(2,1fr);max-width:820px;margin-top:20px;}
+.ag{background:#fff;border:1px solid var(--rule);padding:24px 22px 20px;cursor:pointer;text-align:left;font:inherit;color:inherit;position:relative;transition:box-shadow .25s,border-color .25s;}
+.ag:hover,.ag:focus-visible{border-color:var(--ankh);box-shadow:0 10px 30px rgba(27,12,32,.08);outline:none;}
+.ag small{font-family:var(--head);font-size:9.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--ember);font-weight:600;}
+.ag h4{font-family:var(--display);font-weight:400;font-size:1.6rem;line-height:1.1;margin:8px 0 8px;color:var(--ink);}
+.ag p{margin:0;font-size:.94rem;line-height:1.55;color:var(--ink-2);}
+.ag .more{display:none;margin-top:10px;font-size:.94rem;line-height:1.55;color:var(--ink);border-top:1px dashed var(--rule);padding-top:10px;}
+.ag[aria-expanded="true"] .more{display:block;}
+.ag.road{border-style:dashed;background:var(--paper);}
+.ag.road small{color:var(--triton);}
+.court-head{margin:56px 0 0;max-width:760px;}
+.court-head h3{font-family:var(--display);font-weight:400;font-size:clamp(1.7rem,3.6vw,2.3rem);line-height:1.08;margin:0 0 8px;}
+.court-head h3 em{color:var(--triton);}
+.court-head p{margin:0;color:var(--ink-2);}
+
+/* ── Exploring from the kingdom ────────────────────────────────────── */
+.explore{padding:100px 0 90px;background:radial-gradient(ellipse 80% 70% at 85% 10%, rgba(143,176,240,.16) 0%, transparent 60%), radial-gradient(ellipse 120% 120% at 40% 40%, #1D3237 0%, #1B0C20 80%);}
+.xgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:34px;}
+.x{border:1px solid rgba(165,118,38,.3);padding:22px 20px 18px;background:rgba(0,0,0,.18);}
+.x svg{width:46px;height:46px;display:block;margin-bottom:12px;}
+.x h4{font-family:var(--display);font-weight:400;font-size:1.45rem;line-height:1.1;margin:0 0 8px;color:#fff;}
+.x p{font-size:.92rem;line-height:1.55;color:rgba(231,231,231,.72);margin:0;}
+.explore .big{font-family:var(--display);font-size:clamp(1.35rem,3.4vw,1.85rem);line-height:1.38;color:#fff;max-width:30em;margin:40px 0 0;}
+.explore .big em{color:var(--ankh-hi);}
+
+/* ── The way home ──────────────────────────────────────────────────── */
+.wayback{padding:96px 0 70px;}
+.steps{counter-reset:s;list-style:none;margin:30px 0 0;padding:0;display:flex;flex-direction:column;gap:0;border-top:1px solid var(--rule);}
+.steps li{counter-increment:s;display:grid;grid-template-columns:70px 1fr;gap:18px;padding:22px 0;border-bottom:1px solid var(--rule);}
+.steps li::before{content:counter(s);font-family:var(--display);font-size:2.8rem;line-height:1;color:var(--ember);}
+.steps h4{margin:0 0 4px;font-family:var(--display);font-weight:400;font-size:1.55rem;line-height:1.15;}
+.steps p{margin:0;color:var(--ink-2);font-size:1rem;line-height:1.6;}
+.practice{
+  margin:44px 0 0;padding:40px 36px;text-align:center;color:var(--mirror);
+  background:radial-gradient(ellipse 100% 120% at 50% 0%, #1D3237 0%, #1B0C20 70%);
+}
+.practice small{font-family:var(--head);font-size:10px;letter-spacing:.26em;text-transform:uppercase;color:var(--ankh-hi);}
+.practice p{font-family:var(--display);font-size:clamp(1.35rem,3.2vw,1.75rem);line-height:1.38;color:#fff;margin:12px auto 0;max-width:24em;}
+.practice p em{color:var(--ember-hi);}
+.practice p.after{font-family:var(--body);font-size:1rem;line-height:1.6;color:rgba(231,231,231,.72);max-width:34em;margin-top:18px;}
+
+/* ── Coherence ─────────────────────────────────────────────────────── */
+.coh{padding:100px 0 90px;background:radial-gradient(ellipse 140% 120% at 50% 30%, #2A1130 0%, #1B0C20 55%, #7C2D50 140%);}
+.cohgrid{display:grid;grid-template-columns:1fr 420px;gap:46px;align-items:center;}
+.coh p{color:rgba(231,231,231,.78);}
+.coh .pq2{font-family:var(--display);font-size:clamp(1.4rem,3.4vw,1.9rem);line-height:1.34;color:#fff;margin:26px 0;}
+.coh .pq2 em{color:var(--ankh-hi);}
+#ripple{width:100%;height:auto;display:block;}
+
+/* ── Us: the timeline ──────────────────────────────────────────────── */
+.us{padding:100px 0 80px;}
+.timeline{position:relative;margin:44px 0 0;padding:0;list-style:none;}
+.timeline::before{content:"";position:absolute;left:118px;top:6px;bottom:6px;width:2px;background:linear-gradient(to bottom,var(--pine),var(--ankh),var(--ember),var(--triton));}
+.tl{display:grid;grid-template-columns:100px 1fr;gap:44px;padding:0 0 34px;position:relative;}
+.tl .yr{font-family:var(--display);font-size:1.7rem;line-height:1;color:var(--triton);text-align:right;padding-top:4px;}
+.tl .yr small{display:block;font-family:var(--head);font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-2);margin-top:6px;}
+.tl::after{content:"";position:absolute;left:111px;top:8px;width:16px;height:16px;border-radius:50%;background:var(--paper);border:2px solid var(--ankh);}
+.tl.now::after{background:var(--ember);border-color:var(--ember);box-shadow:0 0 0 6px rgba(232,115,42,.18);}
+.tl h4{margin:0 0 6px;font-family:var(--display);font-weight:400;font-size:1.6rem;line-height:1.12;}
+.tl p{margin:0 0 .6em;color:var(--ink-2);font-size:1rem;line-height:1.6;}
+.tl.pending h4{color:var(--ink-2);font-style:italic;}
+.twoof{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:50px;}
+.bio{border:1px solid var(--rule);background:#fff;padding:28px 26px 24px;border-top:3px solid var(--bc);}
+.bio small{font-family:var(--head);font-size:9.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--bc);font-weight:600;}
+.bio h4{font-family:var(--display);font-weight:400;font-size:2rem;line-height:1.05;margin:6px 0 10px;}
+.bio p{margin:0 0 .8em;font-size:.98rem;line-height:1.6;color:var(--ink-2);}
+
+/* ── Doors ─────────────────────────────────────────────────────────── */
+.doors{padding:96px 0 90px;background:var(--crown);}
+.dgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:34px;}
+.dr{border:1px solid rgba(165,118,38,.32);padding:28px 24px 24px;background:rgba(255,255,255,.02);display:flex;flex-direction:column;}
+.dr svg{width:60px;height:60px;margin-bottom:12px;}
+.dr small{font-family:var(--head);font-size:9.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--ankh-hi);}
+.dr h4{font-family:var(--display);font-weight:400;font-size:1.8rem;line-height:1.08;margin:8px 0 4px;color:#fff;}
+.dr .subt{font-family:var(--display);font-style:italic;font-size:1.1rem;color:var(--ember-hi);margin:0 0 10px;}
+.dr p{font-size:.94rem;line-height:1.58;color:rgba(231,231,231,.72);margin:0 0 16px;flex:1;}
+
+/* ── Close and footer ──────────────────────────────────────────────── */
+.close{padding:110px 0 100px;text-align:center;background:radial-gradient(ellipse 140% 120% at 50% 100%, #3a1c12 0%, #1B0C20 55%, #120A1A 100%);}
+.close svg{width:220px;height:auto;display:block;margin:0 auto 26px;}
+.close .big{font-family:var(--display);font-size:clamp(1.7rem,4.6vw,2.7rem);line-height:1.2;color:#fff;max-width:22em;margin:0 auto;}
+.close .big em{color:var(--ember-hi);}
+.close .then{color:rgba(231,231,231,.65);max-width:34em;margin:30px auto 0;font-size:1rem;}
+footer{background:#0E0714;color:rgba(231,231,231,.6);text-align:center;padding:56px 28px 70px;font-size:.92rem;}
+footer img{width:46px;height:auto;opacity:.85;}
+footer .promise{font-family:var(--display);font-style:italic;font-size:1.3rem;color:var(--ankh-hi);margin:14px 0 6px;}
+footer a{color:#fff;}
+footer .small{max-width:46em;margin:22px auto 0;font-size:.8rem;line-height:1.6;color:rgba(231,231,231,.45);}
+
+/* ── Responsive ───────────────────────────────────────────────────── */
+@media (max-width:1060px){
+  .qgrid,.cohgrid{grid-template-columns:1fr;}
+  .gauge{position:static;}
+  .xgrid{grid-template-columns:repeat(2,1fr);}
+}
+@media (max-width:820px){
+  body{font-size:17px;}
+  .card{grid-template-columns:1fr;}
+  .plate{order:-1;}
+  .plate svg{max-width:320px;margin:0 auto;}
+  .card-main{padding:28px 24px 24px;}
+  .agrid,.agrid.court,.dgrid,.fgrid,.twoof{grid-template-columns:1fr;}
+  .facts{grid-template-columns:repeat(2,1fr);}
+  .fact:nth-child(3){border-left:0;}
+  .fact:nth-child(n+3){border-top:1px solid var(--rule);}
+  .qrow{grid-template-columns:24px 1fr;}
+  .qrow .seg{grid-column:1 / -1;justify-self:start;}
+  .timeline::before{left:14px;}
+  .tl{grid-template-columns:1fr;gap:4px;padding-left:44px;}
+  .tl .yr{text-align:left;}
+  .tl::after{left:7px;}
+}
+@media (max-width:520px){
+  .xgrid{grid-template-columns:1fr;}
+  .wrap,.wide{padding:0 20px;}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none !important;transition:none !important;}
+  html{scroll-behavior:auto;}
+  .whiteout{opacity:.08;} .cairn,.tentlit,.homelight,.role,.meetfire{opacity:1;}
+}
+</style>
+</head>
+<body>
+
+<header class="hero dark" id="top">
+  <div class="wrap">
+    <img class="logo" src="./assets/logo-inline-light.png" alt="Christopher Hager">
+    <p class="kicker">A field guide for couples reclaiming their sovereignty</p>
+    <h1>The <em>Kingdom</em></h1>
+    <p class="sub">The road back home to each other.</p>
+    <p class="dek">Nobody inherits a kingdom ready-made. You build it, stone by stone, and most of the stones are boring: the agreements, the hard conversations, who does what on a Tuesday. Sometimes the boring work is the sacred work. It builds something that lasts a lifetime, and if you build it well, something you hand down. Twenty-one years in, this is how we build ours, how we leave it, and how we find our way home.</p>
+    <div class="hero-cta">
+      <a class="btn solid" href="#lost">Have we lost the blueprint?</a>
+      <a class="btn" href="#climb">Walk the kingdom</a>
+      <a class="btn" href="#us">Meet us</a>
+    </div>
+  </div>
+  <div class="range-wrap">
+    <svg id="range" viewBox="0 0 1100 330" role="img" aria-label="A kingdom at night. A castle with a lit gate stands on a hill between mountains and a lake. Torches burn along the road, and two lights walk out from the castle into the lands and back home again.">
+      <defs>
+        <radialGradient id="fireglow" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#F7A35C" stop-opacity=".55"/><stop offset="100%" stop-color="#F7A35C" stop-opacity="0"/></radialGradient>
+        <radialGradient id="lampglow" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#FFF4D6" stop-opacity=".95"/><stop offset="100%" stop-color="#FFF4D6" stop-opacity="0"/></radialGradient>
+        <linearGradient id="peakfill" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#2A1130"/><stop offset="100%" stop-color="#120A1A"/></linearGradient>
+        <linearGradient id="farfill" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#1D3237"/><stop offset="100%" stop-color="#120A1A"/></linearGradient>
+        <linearGradient id="lakefill" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#24443F"/><stop offset="100%" stop-color="#1D3237"/></linearGradient>
+      </defs>
+      <g id="stars"></g>
+      <circle cx="905" cy="62" r="22" fill="#E7E7E7" fill-opacity=".9"/>
+      <circle cx="914" cy="56" r="20" fill="#1B0C20"/>
+      <!-- the far range -->
+      <path d="M0 250 L120 170 L190 210 L290 130 L380 200 L470 150 L560 210 L700 140 L800 190 L900 120 L1010 200 L1100 160 L1100 330 L0 330 Z" fill="url(#farfill)" opacity=".85"/>
+      <!-- the mountains of the kingdom -->
+      <path d="M90 292 L210 168 L272 214 L336 160 L450 292 Z" fill="url(#peakfill)" stroke="#A57626" stroke-opacity=".55" stroke-width="1.1" stroke-linejoin="round"/>
+      <path d="M336 160 L350 178 L342 177 L336 184 L329 176 L322 180 Z" fill="#E7E7E7" fill-opacity=".55"/>
+      <path d="M600 292 L724 156 L774 186 L852 98 L990 292 Z" fill="url(#peakfill)" stroke="#A57626" stroke-opacity=".7" stroke-width="1.2" stroke-linejoin="round"/>
+      <path d="M852 98 L870 122 L859 120 L851 130 L842 119 L833 124 Z" fill="#E7E7E7" fill-opacity=".8"/>
+      <!-- the lands -->
+      <path d="M0 292 C 200 274 400 268 560 272 C 720 276 900 270 1100 264 L1100 330 L0 330 Z" fill="#16262A"/>
+      <ellipse cx="900" cy="288" rx="140" ry="11" fill="url(#lakefill)" stroke="#8FB0F0" stroke-opacity=".25"/>
+      <g stroke="#E7E7E7" stroke-linecap="round">
+        <line class="tw" x1="890" y1="284" x2="920" y2="284" stroke-opacity=".5"/>
+        <line class="tw" style="animation-delay:1.3s" x1="896" y1="289" x2="914" y2="289" stroke-opacity=".4"/>
+        <line class="tw" style="animation-delay:2.4s" x1="901" y1="293" x2="910" y2="293" stroke-opacity=".3"/>
+      </g>
+      <!-- the hill and the castle -->
+      <path d="M360 302 C 440 238 500 210 560 206 C 620 210 690 238 770 302 Z" fill="url(#peakfill)" stroke="#A57626" stroke-width="1.3" stroke-linejoin="round"/>
+      <path id="road" class="trail-dash" d="M560 206 C 556 232 480 236 452 254 C 424 272 520 292 640 302 C 760 312 900 314 1090 306" fill="none" stroke="#D9A648" stroke-opacity=".55" stroke-width="1.4"/>
+      <circle cx="560" cy="196" r="96" fill="url(#fireglow)" class="glowpulse"/>
+      <g fill="#2A1130" stroke="#D9A648" stroke-width="1.3" stroke-linejoin="round">
+        <rect x="486" y="128" width="28" height="78"/>
+        <path d="M482 128 L500 98 L518 128 Z"/>
+        <rect x="606" y="128" width="28" height="78"/>
+        <path d="M602 128 L620 98 L638 128 Z"/>
+        <rect x="510" y="156" width="100" height="50"/>
+        <rect x="512" y="149" width="8" height="7"/><rect x="524" y="149" width="8" height="7"/>
+        <rect x="588" y="149" width="8" height="7"/><rect x="600" y="149" width="8" height="7"/>
+        <rect x="538" y="108" width="44" height="98"/>
+        <path d="M532 108 L560 66 L588 108 Z"/>
+      </g>
+      <line x1="560" y1="66" x2="560" y2="44" stroke="#D9A648" stroke-width="1.4"/>
+      <path class="flag" d="M560 44 L580 49 L560 55 Z" fill="#E8732A"/>
+      <g fill="#F7C25C" class="glowpulse">
+        <rect x="555" y="122" width="10" height="14" rx="5"/>
+        <rect x="496" y="144" width="8" height="12" rx="4"/>
+        <rect x="616" y="144" width="8" height="12" rx="4"/>
+      </g>
+      <path d="M548 206 L548 188 A12 12 0 0 1 572 188 L572 206 Z" fill="#F7A35C" class="glowpulse"/>
+      <!-- torches along the road, lit to guide you home -->
+      <g id="torches"></g>
+      <!-- two lights walk out into the lands and home again -->
+      <g>
+        <circle r="9" fill="url(#lampglow)"/><circle r="2.4" fill="#FFF4D6"/>
+        <animateMotion dur="20s" repeatCount="indefinite" keyPoints="0;1;1;0;0" keyTimes="0;.42;.52;.92;1" calcMode="linear"><mpath href="#road"/></animateMotion>
+      </g>
+      <g>
+        <circle r="9" fill="url(#lampglow)"/><circle r="2.4" fill="#FFE2B0"/>
+        <animateMotion dur="20s" begin="-0.7s" repeatCount="indefinite" keyPoints="0;1;1;0;0" keyTimes="0;.42;.52;.92;1" calcMode="linear"><mpath href="#road"/></animateMotion>
+      </g>
+      <text x="560" y="30" text-anchor="middle" font-family="Space Grotesk, sans-serif" font-size="9" letter-spacing="3" fill="#D9A648" fill-opacity=".8">THE CASTLE</text>
+      <text x="900" y="266" text-anchor="middle" font-family="Space Grotesk, sans-serif" font-size="9" letter-spacing="3" fill="#E7E7E7" fill-opacity=".45">THE LANDS</text>
+    </svg>
+  </div>
+  <p class="byline">Christopher &amp; Pixie Hager · Twenty-one years building the kingdom</p>
+</header>
+
+<nav class="topnav" id="topnav" aria-label="Sections">
+  <div class="in">
+    <a class="home" href="#top" aria-label="Top"><img src="./assets/mark-light.png" alt=""></a>
+    <a class="nl" href="#why"><i>i</i>The kingdom</a>
+    <a class="nl" href="#lost"><i>ii</i>Lost?</a>
+    <a class="nl" href="#climb"><i>iii</i>Six stations</a>
+    <a class="nl" href="#fight"><i>iv</i>Fight language</a>
+    <a class="nl" href="#agreements"><i>v</i>Agreements</a>
+    <a class="nl" href="#explore"><i>vi</i>Exploring</a>
+    <a class="nl" href="#wayback"><i>vii</i>The way home</a>
+    <a class="nl" href="#coherence"><i>viii</i>Coherence</a>
+    <a class="nl" href="#us"><i>ix</i>Us</a>
+    <a class="nl" href="#doors"><i>x</i>Work with us</a>
+  </div>
+</nav>
+
+<section class="sec" id="why">
+  <div class="wrap">
+    <p class="eyebrow"><img src="./assets/ibis-dark.png" alt="">Why a kingdom</p>
+    <h2>Sometimes the boring work <em>is the sacred work</em></h2>
+    <p class="lead">Most couples come to us talking about the big moments. The ceremony, the hard honesty, the opening of the heart, the adventure they want to have. Fair enough. Those are the moments you remember.</p>
+    <p>But the couples who lose their way almost never lost their nerve. They stopped building. Somewhere along the way the agreements went unspoken, the hard thing went unsaid, and the load one of them was carrying went unnamed for so long that it stopped being a load and started being a grudge.</p>
+    <blockquote class="pq">
+      <p>"Even a crappy castle is better than no castle at all. Build it badly, and build it anyway."</p>
+    </blockquote>
+    <p>A kingdom is not a five-year plan with a laminated cover. It's a life you build together, meant to last a lifetime, and if you do it well, something your children grow up inside and one day build their own from. Values you've actually paid for. Agreements you can say out loud. A way to fight that doesn't cost you the relationship. And walls strong enough, and roads clear enough, that either of you can go out exploring, in life, in travel, in friendship, and for some couples in love, and always find your way home.</p>
+    <div class="facts">
+      <div class="fact"><b>21</b><span>Years building, together</span></div>
+      <div class="fact"><b>6</b><span>Stations in the kingdom</span></div>
+      <div class="fact"><b>5</b><span>Agreements we speak aloud</span></div>
+      <div class="fact"><b>1</b><span>Way home. Always the same one.</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="lost dark dots" id="lost">
+  <div class="wide">
+    <div class="head">
+      <p class="eyebrow" style="justify-content:center;"><img src="./assets/horus-light.png" alt="">A marker, not a diagnosis</p>
+      <h2>Have we <em>lost the blueprint?</em></h2>
+      <p>Or lost the desire to work on it? Or does it just need refining? Twelve lines. Answer for yourself, not for your partner, and answer for this month, not for your best year. Then hand the page across the table and let them do theirs.</p>
+    </div>
+    <div class="qgrid">
+      <div class="qlist" id="qlist"></div>
+      <aside class="gauge" aria-live="polite">
+        <svg viewBox="0 0 340 170" aria-hidden="true">
+          <path d="M0 160 L120 60 L170 96 L230 20 L340 160 Z" fill="#2A1130" stroke="#A57626" stroke-width="1.2" stroke-linejoin="round"/>
+          <path d="M230 20 L244 38 L236 38 L230 32 L222 40 L216 36 Z" fill="#E7E7E7" fill-opacity=".8"/>
+          <defs><radialGradient id="gfire"><stop offset="0%" stop-color="#F7A35C" stop-opacity=".6"/><stop offset="100%" stop-color="#F7A35C" stop-opacity="0"/></radialGradient></defs>
+          <circle cx="38" cy="146" r="30" fill="url(#gfire)"/>
+          <g fill="#1B0C20" stroke="#D9A648" stroke-width="1" stroke-linejoin="round">
+            <rect x="22" y="140" width="34" height="20"/>
+            <rect x="16" y="130" width="10" height="30"/><path d="M14 130 L21 120 L28 130 Z"/>
+            <rect x="52" y="130" width="10" height="30"/><path d="M50 130 L57 120 L64 130 Z"/>
+            <rect x="32" y="124" width="14" height="36"/><path d="M30 124 L39 112 L48 124 Z"/>
+          </g>
+          <path class="glowpulse" d="M35 160 L35 153 A4 4 0 0 1 43 153 L43 160 Z" fill="#F7A35C"/>
+          <g fill="none" stroke="#E7E7E7" stroke-opacity=".35" stroke-dasharray="2 4"><path d="M62 156 C 110 140 120 110 160 104 C 200 98 260 120 300 150"/></g>
+          <text x="20" y="104" font-family="Space Grotesk, sans-serif" font-size="8" letter-spacing="2" fill="#D9A648">HOME</text>
+          <text x="262" y="126" font-family="Space Grotesk, sans-serif" font-size="8" letter-spacing="2" fill="#8FB0F0">WHITEOUT</text>
+          <filter id="gfog" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="10"/></filter><ellipse id="snow" cx="290" cy="118" rx="62" ry="46" fill="#E7E7E7" opacity="0" filter="url(#gfog)" style="transition:opacity 1s"/>
+          <g id="walker" transform="translate(62 150)">
+            <circle r="10" fill="url(#gfire)"/>
+            <circle cy="-12" r="3.4" fill="#FFF4D6"/>
+            <path d="M0 -8 L0 2 M0 2 L-4 10 M0 2 L4 10 M0 -5 L-5 0 M0 -5 L5 0" stroke="#FFF4D6" stroke-width="1.6" stroke-linecap="round"/>
+          </g>
+        </svg>
+        <small id="gTag">Your marker</small>
+        <h3 id="gTitle">Answer a few lines</h3>
+        <p id="gText">The walker moves as you answer. Tap each line: rarely, sometimes, or often.</p>
+        <p class="meta" id="gMeta">0 of 12 answered</p>
+      </aside>
+    </div>
+    <p class="note-dk">Where you land is weather, not character. Every couple we know has been in a whiteout. The only couples who stay there are the ones who keep walking instead of stopping to read the map.</p>
+  </div>
+</section>
+
+<section class="sec climb-head" id="climb">
+  <div class="wrap">
+    <p class="eyebrow"><img src="./assets/sun-dark.png" alt="">Walk the kingdom</p>
+    <h2>Six stations. <em>Visit them in any order.</em></h2>
+    <p class="lead">This is the guidebook we hand couples before they come to us, boiled down to what it's actually for. Each station is something you build once and then keep tending for the rest of your life.</p>
+  </div>
+</section>
+
+<div class="stations"><div class="wide" id="stations"></div></div>
+
+<section class="fight dark dots" id="fight">
+  <div class="wrap">
+    <p class="eyebrow"><img src="./assets/braid-light.png" alt="">Station four, opened up</p>
+    <h2>Find your <em>fight language</em></h2>
+    <p style="color:rgba(231,231,231,.74);">One of you needs to talk it through now. One of you needs to go quiet and come back. One of you needs to move first. One of you needs a guide before you can find your words. None of these is the correct way. The trouble starts when each of you treats your own way as the grown-up one. Pick for each of you, and see the agreement that falls out.</p>
+    <div class="fgrid">
+      <div class="who">
+        <h4>You</h4>
+        <p>When it gets hot, I need to…</p>
+        <div class="opts" data-who="a">
+          <button class="opt" type="button" data-v="fast"><small>The hearth</small>Talk it through now, while it's live</button>
+          <button class="opt" type="button" data-v="slow"><small>The tower</small>Go quiet, sort it out alone, then come back</button>
+          <button class="opt" type="button" data-v="move"><small>The ride</small>Move my body first, then I can talk</button>
+          <button class="opt" type="button" data-v="guide"><small>The council</small>Find a guide to help me find my footing first</button>
+        </div>
+      </div>
+      <div class="who">
+        <h4>Your partner</h4>
+        <p>When it gets hot, they need to…</p>
+        <div class="opts" data-who="b">
+          <button class="opt" type="button" data-v="fast"><small>The hearth</small>Talk it through now, while it's live</button>
+          <button class="opt" type="button" data-v="slow"><small>The tower</small>Go quiet, sort it out alone, then come back</button>
+          <button class="opt" type="button" data-v="move"><small>The ride</small>Move their body first, then they can talk</button>
+          <button class="opt" type="button" data-v="guide"><small>The council</small>Find a guide to help them find their footing first</button>
+        </div>
+      </div>
+    </div>
+    <div class="verdict" id="verdict" aria-live="polite">
+      <small>Your agreement</small>
+      <p>Pick one for each of you.</p>
+    </div>
+  </div>
+</section>
+
+<section class="agree" id="agreements">
+  <div class="wide">
+    <div style="max-width:760px;">
+      <p class="eyebrow"><img src="./assets/crescent-dark.png" alt="">How to work what's stuck</p>
+      <h2>The agreements <em>we speak aloud</em></h2>
+      <p class="lead">These five hold our ceremony nights, and they hold our arguments too, because it's the same skill under worse conditions. Anybody can listen from the heart by candlelight. The question is whether you can do it over a bank statement. Tap one.</p>
+    </div>
+    <div class="agrid" id="agrid"></div>
+    <div class="court-head">
+      <p class="eyebrow"><img src="./assets/crescent-dark.png" alt="">Decrees of the court</p>
+      <h3>Not how we talk. <em>How we move.</em></h3>
+      <p>The agreements are about how two people speak to each other. These are rulings the court makes so the kingdom keeps moving.</p>
+    </div>
+    <div class="agrid court" id="court"></div>
+  </div>
+</section>
+
+<section class="explore dark dots" id="explore">
+  <div class="wide">
+    <div style="max-width:780px;">
+      <p class="eyebrow"><img src="./assets/water-light.png" alt="">Why build a kingdom at all</p>
+      <h2>A kingdom is what makes <em>leaving it safe</em></h2>
+      <p style="color:rgba(231,231,231,.76);">Nobody builds a kingdom to sit in the throne room. You build it so you can go, because you know your way home. You know the people, you know the land, and it's protected while you're out. A trip on your own. A retreat. A friendship that asks a lot of you. A new calling that takes you out of the house three nights a week. And for some couples, ours included, a season of opening the relationship to other people.</p>
+      <p style="color:rgba(231,231,231,.76);">We're not going to tell you what your relationship should look like out there. We'll tell you what ours needed at home before any of it was safe.</p>
+    </div>
+    <div class="xgrid">
+      <div class="x">
+        <svg viewBox="0 0 48 48" fill="none" stroke="#D9A648" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 30 L42 30 M10 30 L14 22 L34 22 L38 30"/><circle cx="14" cy="34" r="4"/><circle cx="34" cy="34" r="4"/><path d="M24 22 L24 12 L32 15 L24 18" stroke="#E8732A"/></svg>
+        <h4>Travel and solo trips</h4>
+        <p>One of you goes. One of you holds the castle. The agreement is less about the trip and more about the call home, the kids' bedtime, and how you land again when you're back.</p>
+      </div>
+      <div class="x">
+        <svg viewBox="0 0 48 48" fill="none" stroke="#D9A648" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="24" cy="24" r="16"/><path d="M24 12 L28 24 L24 36 L20 24 Z" fill="rgba(232,115,42,.4)" stroke="#E8732A"/></svg>
+        <h4>Callings and containers</h4>
+        <p>Ceremony, men's work, women's circles, a retreat across the world. The work that makes you more yourself, and asks your partner to trust it.</p>
+      </div>
+      <div class="x">
+        <svg viewBox="0 0 48 48" fill="none" stroke="#D9A648" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="16" cy="18" r="5"/><circle cx="32" cy="18" r="5"/><path d="M6 38 C 8 30 12 27 16 27 C 20 27 24 30 24 34 C 24 30 28 27 32 27 C 36 27 40 30 42 38"/></svg>
+        <h4>Friendships that matter</h4>
+        <p>Deep friendship with other men, with other women. Intimacy that is not sexual and is still intimacy, and the jealousy it can stir anyway.</p>
+      </div>
+      <div class="x">
+        <svg viewBox="0 0 48 48" fill="none" stroke="#D9A648" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M24 40 C 10 30 6 22 6 16 C 6 10 11 6 16 6 C 20 6 23 9 24 12 C 25 9 28 6 32 6 C 37 6 42 10 42 16 C 42 22 38 30 24 40 Z"/><path d="M18 22 L24 28 L30 22" stroke="#E8732A"/></svg>
+        <h4>Opening the relationship</h4>
+        <p>Other partners, held inside agreements you both wrote. We've walked this one. We'll speak to it plainly, without names, and without telling anyone it's the right road for them.</p>
+      </div>
+    </div>
+    <p class="big">"We use each other as armor. And then we don't know who we are without that person." <em>The kingdom is where you walk into the castle and put the armor down, so you can get to know yourself, and your partner, without it.</em></p>
+  </div>
+</section>
+
+<section class="wayback" id="wayback">
+  <div class="wrap">
+    <p class="eyebrow"><img src="./assets/scarab-dark.png" alt="">When you've lost sight of the kingdom</p>
+    <h2>The way home <em>is always the same way</em></h2>
+    <p class="lead">Whiteouts happen, even inside your own borders. The only real mistake is to keep walking in one. Here's the road home, and it doesn't change no matter how far out you got.</p>
+    <ol class="steps">
+      <li><div><h4>Stop walking.</h4><p>The urge to fix it tonight, prove your point, or leave the room is the urge to keep walking in a whiteout. Stop. Say out loud: "I think we've lost sight of the kingdom."</p></div></li>
+      <li><div><h4>Come back to the body.</h4><p>Nothing gets decided from a dysregulated nervous system. Breathe, walk, put a hand on your chest. When the heart is dysregulated, the voice goes up exponentially, and nobody has ever been shouted into feeling safe.</p></div></li>
+      <li><div><h4>Go back to the agreements.</h4><p>Not to the argument. To the thing you both said yes to when it was calm. Read it, if you wrote it down. If you never wrote it down, that's the finding.</p></div></li>
+      <li><div><h4>Say the first-truest sentence.</h4><p>Most stuck things are stuck because what got said was the second-truest sentence. Slow down until the first one surfaces. It's usually shorter, and it usually starts with "I'm scared that…"</p></div></li>
+      <li><div><h4>Decide, or decide when.</h4><p>"Not now, and we're talking about it on Sunday" is a decision. Letting it drift and calling that peace is not. Say who is doing what, out loud, so neither of you has to remember it alone.</p></div></li>
+    </ol>
+    <div class="practice">
+      <small>The practice, one breath long</small>
+      <p>Before the next hard conversation, both hands on the table and one question: <em>are we in the kingdom, or are we in a whiteout?</em></p>
+      <p class="after">The kingdom is vast. You don't have to be in the castle to be home, and you can be standing side by side and still be completely lost. If you can't agree on the answer, you're in the whiteout. Start at one.</p>
+    </div>
+  </div>
+</section>
+
+<section class="coh dark dots" id="coherence">
+  <div class="wide">
+    <div class="cohgrid">
+      <div>
+        <p class="eyebrow"><img src="./assets/ankh-light.png" alt="">Coherence</p>
+        <h2>Do it for yourself. <em>Watch who it reaches.</em></h2>
+        <p>Here's the part nobody tells you at the start. The work that holds a marriage together is mostly not marriage work. It's the morning you didn't skip. The regulation you did before you walked in the door. The truth you told yourself first, so the one you told your partner came out clean.</p>
+        <p class="pq2">"That time is for me. The highest and best version of myself is there every single morning waiting for me. And when I get back in the house, I'm more patient. I'm a more present father and <em>a more present partner.</em> That's the man who comes back into the house."</p>
+        <p>Our mornings start together. Make the bed. Turn off the air conditioner. Raise the blinds. Brush our teeth, and do the toothbrush dance: both of us on one leg, flamingo-style. Then the coffee and the rest of it. And before I head outside, sometime between 6:30 and 7:30, once I've done the things I know make her life easier, I ask one sentence. Every time.</p>
+        <p class="pq2">"Is there anything else you need from me <em>before I go and take my time?</em>"</p>
+        <p>Coherence doesn't stay in one room. It shows up as a more patient husband, a more patient father, a son, a brother, a lover. And here's the thing: it's not selfish. It's selfish not to.</p>
+        <p>Couples lose sight of the kingdom when each of them waits for the other to come back first. The way out is unglamorous: one of you walks back to the castle and lights the hearth. Usually the other one sees the light in the window.</p>
+      </div>
+      <svg id="ripple" viewBox="0 0 420 420" role="img" aria-label="A single point of light at the center sends out rings. As each ring passes, a role lights up: husband, father, son, brother, lover, friend.">
+        <defs><radialGradient id="core"><stop offset="0%" stop-color="#FFF4D6"/><stop offset="45%" stop-color="#F7C25C"/><stop offset="100%" stop-color="#A57626" stop-opacity="0"/></radialGradient></defs>
+        <g fill="none" stroke="#D9A648" stroke-width="1.4">
+          <circle class="ring" cx="210" cy="210" r="190"/><circle class="ring r2" cx="210" cy="210" r="190"/><circle class="ring r3" cx="210" cy="210" r="190"/><circle class="ring r4" cx="210" cy="210" r="190"/>
+        </g>
+        <g fill="none" stroke="rgba(231,231,231,.12)"><circle cx="210" cy="210" r="90"/><circle cx="210" cy="210" r="150"/></g>
+        <circle cx="210" cy="210" r="46" fill="url(#core)" class="glowpulse"/>
+        <text x="210" y="214" text-anchor="middle" font-family="Space Grotesk, sans-serif" font-size="10" letter-spacing="3" fill="#1B0C20" font-weight="700">YOU</text>
+        <g id="roles" font-family="Instrument Serif, serif" font-size="24" fill="#fff" text-anchor="middle"></g>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<section class="us" id="us">
+  <div class="wrap">
+    <p class="eyebrow"><img src="./assets/sun-dark.png" alt="">Learn more about us</p>
+    <h2>Twenty-one years, <em>told straight</em></h2>
+    <p class="lead">We're not handing you a theory. This is the kingdom we've built, the times we tore it down, and where we're standing now.</p>
+    <ol class="timeline" id="timeline"></ol>
+    <div class="twoof">
+      <div class="bio" style="--bc:var(--triton)">
+        <small>Coach · Ceremonialist</small>
+        <h4>Christopher</h4>
+        <p>Coach, ceremonialist, and a guy who had to learn that being the mountain means not fixing the storm, but being present for it. Christopher works with men and women coming into co-regulation and truth-telling, finding their way back home to their families and to themselves.</p>
+        <p>His offerings run from one-on-one coaching, including work with high-net-worth individuals, all the way to opening your channel and stepping into your gifts.</p>
+      </div>
+      <div class="bio" style="--bc:var(--ember)">
+        <small>Presence · Couples · Retreats</small>
+        <h4>Pixie</h4>
+        <p style="font-style:italic;">In her own words, coming soon.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="doors dark dots" id="doors">
+  <div class="wide">
+    <div style="max-width:760px;">
+      <p class="eyebrow"><img src="./assets/ankh-light.png" alt="">Three doors into the kingdom</p>
+      <h2>Build your kingdom <em>with us</em></h2>
+      <p style="color:rgba(231,231,231,.72);">We are not your marriage counselors. We're a couple who has torn our kingdom down several times and rebuilt it, each time better than the time before. Pick the door that fits.</p>
+    </div>
+    <div class="dgrid">
+      <div class="dr">
+        <svg viewBox="0 0 60 60" fill="none" stroke="#D9A648" stroke-width="1.4" aria-hidden="true"><path d="M10 50 L30 14 L50 50 Z"/><circle cx="30" cy="36" r="5" fill="#7C2D50" stroke="#D9A648"/></svg>
+        <small>For men · with Christopher</small>
+        <h4>The Mountain</h4>
+        <p>For the man who keeps trying to fix the storm. Regulation, truth, and learning to stay present when the lightning hits.</p>
+        <a class="btn" href="https://www.cahager.com/">Begin at cahager.com</a>
+      </div>
+      <div class="dr">
+        <svg viewBox="0 0 60 60" fill="none" stroke="#D9A648" stroke-width="1.4" aria-hidden="true"><path d="M8 40 C 18 30 24 46 30 36 C 36 26 42 42 52 32"/><path d="M8 48 C 18 38 24 54 30 44 C 36 34 42 50 52 40" stroke="#E8732A"/></svg>
+        <small>For women · with Pixie</small>
+        <h4>Name to come</h4>
+        <p>Navigating the emotional waters of coming home to self, and to relationship.</p>
+        <span class="btn" style="cursor:default;opacity:.6">Coming soon</span>
+      </div>
+      <div class="dr">
+        <svg viewBox="0 0 60 60" fill="none" stroke="#D9A648" stroke-width="1.4" aria-hidden="true"><path d="M14 52 L14 26 L22 26 L22 20 L38 20 L38 26 L46 26 L46 52 Z"/><path d="M26 52 L26 42 A4 4 0 0 1 34 42 L34 52" stroke="#E8732A"/><path d="M30 20 L30 10 L37 13 L30 16" stroke="#E8732A"/></svg>
+        <small>For couples · with both of us</small>
+        <h4>The Road to the Sacred Union</h4>
+        <p class="subt">Exploring the Temple of Your Souls</p>
+        <p>A multi-session journey for couples, one at a time, including the guidebook, The Vow, and a Temple Night.</p>
+        <a class="btn solid" href="https://www.cahager.com/">Begin at cahager.com</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="close dark">
+  <div class="wrap">
+    <svg viewBox="0 0 220 100" aria-hidden="true">
+      <circle cx="110" cy="74" r="50" fill="url(#fireglow)" class="glowpulse"/>
+      <g fill="#2A1130" stroke="#D9A648" stroke-width="1.2" stroke-linejoin="round">
+        <rect x="72" y="46" width="18" height="48"/><path d="M69 46 L81 28 L93 46 Z"/>
+        <rect x="130" y="46" width="18" height="48"/><path d="M127 46 L139 28 L151 46 Z"/>
+        <rect x="86" y="60" width="48" height="34"/>
+        <rect x="98" y="34" width="24" height="60"/><path d="M94 34 L110 12 L126 34 Z"/>
+      </g>
+      <path class="glowpulse" d="M102 94 L102 82 A8 8 0 0 1 118 82 L118 94 Z" fill="#F7A35C"/>
+      <rect class="glowpulse" x="107" y="44" width="6" height="9" rx="3" fill="#F7C25C"/>
+      <g transform="translate(40 94)">
+        <line y2="-16" stroke="#7A4A20" stroke-width="2"/>
+        <path class="flame" d="M0 -15 C -5 -19 -4 -26 0 -32 C 4 -26 5 -19 0 -15 Z" fill="#E8732A"/>
+        <path class="flame f2" d="M0 -15 C -3 -18 -2.5 -22 0 -26 C 2.5 -22 3 -18 0 -15 Z" fill="#F7C25C"/>
+      </g>
+      <g transform="translate(180 94)">
+        <line y2="-16" stroke="#7A4A20" stroke-width="2"/>
+        <path class="flame" d="M0 -15 C -5 -19 -4 -26 0 -32 C 4 -26 5 -19 0 -15 Z" fill="#E8732A"/>
+        <path class="flame f2" d="M0 -15 C -3 -18 -2.5 -22 0 -26 C 2.5 -22 3 -18 0 -15 Z" fill="#F7C25C"/>
+      </g>
+    </svg>
+    <p class="big">Wherever you are in the kingdom, <em>the castle doors are always open,</em> and the fires along the road are lit to guide you home.</p>
+    <p class="then">Back to your agreements. Back to center. Back to the first-truest sentence. Then go explore again.</p>
+  </div>
+</section>
+
+<footer>
+  <img src="./assets/mark-light.png" alt="Christopher Hager">
+  <p class="promise">The road back home to each other</p>
+  <p><a href="https://www.cahager.com/">cahager.com</a> · <a href="https://hagerca.github.io/words-of-wisdom/">Words of Wisdom</a> · <a href="https://hagerca.github.io/">The Alchemy Lab</a></p>
+  <p class="small">The Kingdom grows out of The Road to the Sacred Union guidebook. The agreements are our own. Our story is ours and is told with our permission; no other person in it is named.</p>
+</footer>
+
+<script>
+/* ════════════════════════════════════════════════════════════════════
+   Stars in the hero sky, and torches along the road.
+   Deterministic, so the sky is the same each load.
+   ════════════════════════════════════════════════════════════════════ */
+(function(){
+  const g = document.getElementById('stars');
+  let s = 7; const r = () => (s = (s * 9301 + 49297) % 233280) / 233280;
+  let out = '';
+  for (let i = 0; i < 90; i++) {
+    const x = (r() * 1100).toFixed(1), y = (r() * 200).toFixed(1), rad = (r() * 1.3 + .3).toFixed(2);
+    out += `<circle class="tw" cx="${x}" cy="${y}" r="${rad}" fill="#E7E7E7" fill-opacity="${(r()*.6+.25).toFixed(2)}" style="animation-delay:${(r()*4).toFixed(2)}s"/>`;
+  }
+  g.innerHTML = out;
+  const torches = [[534,236],[462,268],[640,298],[780,306],[930,307],[1060,304]];
+  document.getElementById('torches').innerHTML = torches.map(([x,y],i) => `
+    <g transform="translate(${x} ${y})">
+      <circle cy="-20" r="12" fill="url(#fireglow)" class="glowpulse" style="animation-delay:${(i*.5).toFixed(1)}s"/>
+      <line y2="-14" stroke="#7A4A20" stroke-width="1.6"/>
+      <path class="flame" d="M0 -13 C -3.5 -16 -3 -21 0 -26 C 3 -21 3.5 -16 0 -13 Z" fill="#E8732A"/>
+      <path class="flame f2" d="M0 -13 C -2 -15 -1.6 -18 0 -21 C 1.6 -18 2 -15 0 -13 Z" fill="#F7C25C"/>
+    </g>`).join('');
+})();
+
+/* ════════════════════════════════════════════════════════════════════
+   The lost test.
+   ════════════════════════════════════════════════════════════════════ */
+const QS = [
+  `The same argument keeps showing up, just in a new coat.`,
+  `There's a thing neither of us brings up.`,
+  `I said the second-truest sentence and called it honest.`,
+  `One of us is carrying a load the other has never named.`,
+  `Our agreements live in our heads, not in words either of us could repeat.`,
+  `We haven't touched our blueprint in years, and part of me doesn't want to.`,
+  `After a hard conversation, I'm still not sure what we decided.`,
+  `When my partner goes out into the world without me, my body reads it as a threat instead of an adventure.`,
+  `I'd rather keep the peace than say the thing.`,
+  `I've stopped doing the things that fill my own cup.`,
+  `It's been longer than I'd admit since we had a night that was just the two of us.`,
+  `I'm more patient with strangers than with the people at my own table.`
+];
+const LEVELS = [
+  {max:5,  tag:'Home in the kingdom', title:'The hearth is lit', x:62, y:150, snow:0,
+   text:`Your kingdom is standing. Keep the agreements spoken and the small things small. This is the season to go explore, because you have somewhere to come home to.`},
+  {max:11, tag:'Out in the lands', title:'Building, and that\'s normal', x:150, y:106, snow:0,
+   text:`Some strain, some unsaid things. That is what building feels like. Pick one line you answered "often" and bring it to the table this week, using the five agreements.`},
+  {max:17, tag:'Off the map', title:'Time to pull out the blueprint', x:228, y:110, snow:.3,
+   text:`You've drifted. Not lost for good, but the agreements aren't holding the weight. Stop adding distance. Walk "The way home" below, together, before anyone makes a big decision.`},
+  {max:24, tag:'Whiteout', title:'Stop walking', x:296, y:146, snow:.62,
+   text:`You can't see the road home from here, and that's exactly when people make the worst calls of their lives. Don't decide anything big this week. Come back to the body, then to the agreements. This is also what guides are for.`}
+];
+const ans = new Array(QS.length).fill(null);
+const ql = document.getElementById('qlist');
+ql.innerHTML = QS.map((q,i)=>`
+  <div class="qrow" id="q${i}">
+    <span class="n">${i+1}</span><p>${q}</p>
+    <div class="seg" role="group" aria-label="How often, line ${i+1}">
+      <button type="button" data-i="${i}" data-v="0" aria-pressed="false">Rarely</button>
+      <button type="button" data-i="${i}" data-v="1" aria-pressed="false">Sometimes</button>
+      <button type="button" data-i="${i}" data-v="2" aria-pressed="false">Often</button>
+    </div>
+  </div>`).join('');
+ql.addEventListener('click', e => {
+  const b = e.target.closest('button[data-i]'); if (!b) return;
+  const i = +b.dataset.i; ans[i] = +b.dataset.v;
+  b.parentElement.querySelectorAll('button').forEach(x => x.setAttribute('aria-pressed', x === b));
+  document.getElementById('q'+i).classList.add('answered');
+  scoreLost();
+});
+function scoreLost(){
+  const done = ans.filter(a => a !== null);
+  document.getElementById('gMeta').textContent = `${done.length} of ${QS.length} answered`;
+  if (done.length < 3) return;
+  /* Scale a partial answer set up to the full twelve so the walker moves honestly as you go. */
+  const score = Math.round(done.reduce((a,b)=>a+b,0) * QS.length / done.length);
+  const L = LEVELS.find(l => score <= l.max);
+  document.getElementById('gTag').textContent = L.tag + (done.length < QS.length ? ' · so far' : '');
+  document.getElementById('gTitle').textContent = L.title;
+  document.getElementById('gText').textContent = L.text;
+  document.getElementById('walker').style.transform = `translate(${L.x}px, ${L.y}px)`;
+  document.getElementById('snow').setAttribute('opacity', L.snow);
+}
+document.getElementById('walker').style.transform = 'translate(62px,150px)';
+document.getElementById('walker').removeAttribute('transform');
+
+/* ════════════════════════════════════════════════════════════════════
+   The six stations, each with a moving plate.
+   ════════════════════════════════════════════════════════════════════ */
+const G = '#D9A648', W = '#E7E7E7', E = '#E8732A';
+const lbl = (x,y,t,c=W,o=.6,a='start') => `<text x="${x}" y="${y}" text-anchor="${a}" font-family="Space Grotesk, sans-serif" font-size="9" letter-spacing="2.4" fill="${c}" fill-opacity="${o}">${t}</text>`;
+const fire = (x,y,s=1) => `<g transform="translate(${x} ${y}) scale(${s})">
+  <path d="M-10 0 L10 -5 M-10 -5 L10 0" stroke="#7A4A20" stroke-width="2.6" stroke-linecap="round"/>
+  <path class="flame" d="M0 -3 C -8 -9 -5 -20 0 -29 C 5 -20 8 -9 0 -3 Z" fill="${E}"/>
+  <path class="flame f2" d="M0 -3 C -5 -8 -4 -15 0 -21 C 4 -15 5 -8 0 -3 Z" fill="#F7C25C"/>
+  <path class="flame f3" d="M0 -4 C -2 -7 -2 -10 0 -13 C 2 -10 2 -7 0 -4 Z" fill="#FFF4D6"/>
+  <circle class="spark" cx="0" cy="-26" r="1.3" fill="#F7C25C"/><circle class="spark s2" cx="3" cy="-24" r="1" fill="#F7A35C"/><circle class="spark s3" cx="-3" cy="-26" r="1" fill="#FFF4D6"/></g>`;
+/* A small castle: body, two merlons, a keep and a lit gate. Origin is the centre of the base. */
+const keep = (x,y,s=1) => `<g transform="translate(${x} ${y}) scale(${s})">
+  <g fill="#2A1130" stroke="${G}" stroke-width="1.2" stroke-linejoin="round">
+    <rect x="-14" y="-18" width="28" height="18"/><rect x="-14" y="-22" width="5" height="4"/><rect x="9" y="-22" width="5" height="4"/>
+    <rect x="-5" y="-30" width="10" height="30"/><path d="M-7 -30 L0 -40 L7 -30 Z"/>
+  </g>
+  <path d="M-3.5 0 L-3.5 -6 A3.5 3.5 0 0 1 3.5 -6 L3.5 0 Z" fill="#F7A35C"/></g>`;
+
+const ART = {
+ castle: () => ({small:'Station one', cap:'Standing, stocked, and findable in the dark.', svg:`
+  <svg viewBox="0 0 240 200" aria-hidden="true">
+    ${[[20,24],[60,40],[110,14],[170,30],[214,50],[150,58],[36,70]].map(([x,y],i)=>`<circle class="tw" style="animation-delay:${i*.5}s" cx="${x}" cy="${y}" r="1.2" fill="${W}"/>`).join('')}
+    <path d="M0 150 L44 100 L74 124 L120 80 L180 132 L240 104 L240 200 L0 200 Z" fill="#22102A" opacity=".9"/>
+    <rect x="0" y="160" width="240" height="40" fill="#1D3237"/>
+    <defs><radialGradient id="pfire"><stop offset="0%" stop-color="#F7A35C" stop-opacity=".55"/><stop offset="100%" stop-color="#F7A35C" stop-opacity="0"/></radialGradient></defs>
+    <circle cx="120" cy="150" r="58" fill="url(#pfire)" class="glowpulse"/>
+    <g fill="#2A1130" stroke="${G}" stroke-width="1.3" stroke-linejoin="round">
+      <rect x="70" y="100" width="22" height="62"/><path d="M66 100 L81 76 L96 100 Z"/>
+      <rect x="148" y="100" width="22" height="62"/><path d="M144 100 L159 76 L174 100 Z"/>
+      <rect x="88" y="122" width="64" height="40"/>
+      ${[90,100,134,144].map(x=>`<rect x="${x}" y="116" width="6" height="6"/>`).join('')}
+      <rect x="104" y="90" width="32" height="72"/><path d="M100 90 L120 62 L140 90 Z"/>
+    </g>
+    <line x1="120" y1="62" x2="120" y2="46" stroke="${G}" stroke-width="1.2"/>
+    <path class="flag" d="M120 46 L134 50 L120 54 Z" fill="${E}"/>
+    <g fill="#F7C25C" class="glowpulse"><rect x="116" y="100" width="8" height="11" rx="4"/><rect x="78" y="114" width="6" height="9" rx="3"/><rect x="156" y="114" width="6" height="9" rx="3"/></g>
+    <path class="door" d="M112 162 L112 150 A8 8 0 0 1 128 150 L128 162 Z" fill="#F7A35C"/>
+    ${lbl(18,190,'STANDING · STOCKED · FINDABLE',G,.85)}
+  </svg>`}),
+ rope: () => ({small:'Station two', cap:'Close enough to catch. Loose enough to climb.', svg:`
+  <svg viewBox="0 0 240 200" aria-hidden="true">
+    <path d="M0 200 L0 186 L240 66 L240 200 Z" fill="#22102A"/><path d="M0 186 L240 66" stroke="${G}" stroke-width="1.2"/>
+    <g stroke="${W}" stroke-width="2" stroke-linecap="round" fill="none">
+      <circle cx="52" cy="122" r="6" fill="${W}"/><path d="M52 128 L54 146 M54 146 L46 160 M54 146 L62 156 M53 134 L64 128 M53 134 L42 138"/>
+      <circle cx="178" cy="58" r="6" fill="${W}"/><path d="M178 64 L180 82 M180 82 L172 94 M180 82 L188 90 M179 70 L190 62 M179 70 L168 76"/>
+    </g>
+    <path fill="none" stroke="${E}" stroke-width="2.2" stroke-linecap="round" d="M64 128 C 100 160 140 110 168 76">
+      <animate attributeName="d" dur="5s" repeatCount="indefinite" values="M64 128 C 100 170 140 130 168 76;M64 128 C 100 112 136 94 168 76;M64 128 C 100 170 140 130 168 76" keyTimes="0;.5;1" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/>
+    </path>
+    <g font-family="Space Grotesk, sans-serif" font-size="9" letter-spacing="2.4">
+      <text x="20" y="30" fill="${W}" fill-opacity=".6">SLACK<animate attributeName="fill-opacity" dur="5s" repeatCount="indefinite" values=".9;.15;.9"/></text>
+      <text x="20" y="46" fill="${G}">HELD<animate attributeName="fill-opacity" dur="5s" repeatCount="indefinite" values=".15;.95;.15"/></text>
+    </g>
+  </svg>`}),
+ voice: () => ({small:'Station three', cap:'The heart softens. The voice doesn\'t.', ctrl:`<button class="pbtn" type="button" data-dys aria-pressed="false">Dysregulate the heart</button>`, svg:`
+  <svg viewBox="0 0 240 200" aria-hidden="true" class="voiceplate">
+    <g transform="translate(60 92)">
+      <path class="hb" d="M0 34 C -30 14 -38 -2 -38 -14 C -38 -28 -26 -36 -16 -36 C -8 -36 -2 -32 0 -24 C 2 -32 8 -36 16 -36 C 26 -36 38 -28 38 -14 C 38 -2 30 14 0 34 Z" fill="#7C2D50" stroke="${G}" stroke-width="1.4"/>
+    </g>
+    ${lbl(60,160,'HEART',W,.6,'middle')}
+    <defs><clipPath id="vclip"><rect x="120" y="40" width="110" height="110"/></clipPath></defs>
+    <g clip-path="url(#vclip)">
+      <g class="wavestrip">
+        <path class="calm" d="${(()=>{let d='M110 92';for(let x=110;x<=280;x+=10){d+=` Q ${x+5} ${92-12*((x/10)%2?1:-1)} ${x+10} 92`;}return d;})()}" fill="none" stroke="${G}" stroke-width="2"/>
+        <path class="loud" style="opacity:0" d="${(()=>{let d='M110 92';for(let x=110;x<=280;x+=10){d+=` Q ${x+5} ${92-50*((x/10)%2?1:-1)} ${x+10} 92`;}return d;})()}" fill="none" stroke="#C8242B" stroke-width="2.4"/>
+      </g>
+    </g>
+    <text class="vlbl" x="175" y="160" text-anchor="middle" font-family="Space Grotesk, sans-serif" font-size="9" letter-spacing="2.4" fill="${W}" fill-opacity=".6">VOICE · STEADY</text>
+  </svg>`}),
+ clock: () => ({small:'Station four', cap:'Whoever leaves names when they\'re coming back.', svg:`
+  <svg viewBox="0 0 240 200" aria-hidden="true">
+    <circle cx="120" cy="64" r="40" fill="#2A1130" stroke="${G}" stroke-width="1.4"/>
+    <g stroke="${G}" stroke-opacity=".5">${Array.from({length:12},(_,i)=>{const a=i*30*Math.PI/180;return `<line x1="${(120+34*Math.sin(a)).toFixed(1)}" y1="${(64-34*Math.cos(a)).toFixed(1)}" x2="${(120+38*Math.sin(a)).toFixed(1)}" y2="${(64-38*Math.cos(a)).toFixed(1)}"/>`;}).join('')}</g>
+    <circle cx="${(120+34*Math.sin(300*Math.PI/180)).toFixed(1)}" cy="${(64-34*Math.cos(300*Math.PI/180)).toFixed(1)}" r="4" fill="${E}"/>
+    <line class="clockhand" x1="120" y1="64" x2="120" y2="34" stroke="${W}" stroke-width="2.4" stroke-linecap="round"/>
+    <circle cx="120" cy="64" r="3.4" fill="${W}"/>
+    <rect x="0" y="168" width="240" height="32" fill="#1D3237"/>
+    <g fill="#120A1A" stroke="${G}" stroke-opacity=".55" stroke-linejoin="round">
+      <rect x="194" y="112" width="30" height="56"/>
+      <rect x="194" y="106" width="7" height="6"/><rect x="205.5" y="106" width="7" height="6"/><rect x="217" y="106" width="7" height="6"/>
+    </g>
+    <rect x="206" y="122" width="6" height="10" rx="3" fill="#8FB0F0" fill-opacity=".5"/>
+    <g class="meetfire">${fire(120,170,.8)}</g>
+    <g class="fast"><circle cx="58" cy="152" r="6" fill="${E}"/><path d="M58 158 L58 168" stroke="${E}" stroke-width="2.4"/></g>
+    <g class="slow"><circle cx="208" cy="152" r="6" fill="#8FB0F0"/><path d="M208 158 L208 168" stroke="#8FB0F0" stroke-width="2.4"/></g>
+    ${lbl(30,192,'HEARTH',E,.9)}${lbl(192,192,'TOWER','#8FB0F0',.9)}
+  </svg>`}),
+ compass: () => ({small:'Station five', cap:'The needle can swing. It still knows where home is.', svg:`
+  <svg viewBox="0 0 240 200" aria-hidden="true">
+    <g class="homelight">
+      <defs><radialGradient id="pfire2"><stop offset="0%" stop-color="#F7A35C" stop-opacity=".7"/><stop offset="100%" stop-color="#F7A35C" stop-opacity="0"/></radialGradient></defs>
+      <circle cx="120" cy="22" r="18" fill="url(#pfire2)"/>
+      ${keep(120,34,.7)}
+    </g>
+    <circle cx="120" cy="112" r="62" fill="#2A1130" stroke="${G}" stroke-width="1.6"/>
+    <circle cx="120" cy="112" r="52" fill="none" stroke="${G}" stroke-opacity=".3" stroke-dasharray="2 5"/>
+    <g font-family="Instrument Serif, serif" font-size="14" fill="${W}" fill-opacity=".7" text-anchor="middle">
+      <text x="120" y="68">home</text><text x="120" y="166">out</text><text x="72" y="116">W</text><text x="168" y="116">E</text>
+    </g>
+    <g class="needle">
+      <path d="M120 112 L113 112 L120 64 L127 112 Z" fill="${E}"/>
+      <path d="M120 112 L113 112 L120 156 L127 112 Z" fill="${W}" fill-opacity=".5"/>
+    </g>
+    <circle cx="120" cy="112" r="4" fill="${G}"/>
+  </svg>`}),
+ milestones: () => ({small:'Station six', cap:'When you can\'t see the road, walk milestone to milestone.', svg:`
+  <svg viewBox="0 0 240 200" aria-hidden="true">
+    <rect x="0" y="140" width="240" height="60" fill="#1D3237"/>
+    <path d="M20 170 C 60 160 80 150 110 150 C 150 150 170 140 210 132" fill="none" stroke="${W}" stroke-opacity=".2" stroke-dasharray="2 5"/>
+    ${[[30,172,''],[78,158,'c2'],[126,152,'c3'],[170,144,'c4']].map(([x,y,c])=>`<g class="cairn ${c}" transform="translate(${x} ${y})"><path d="M-6 0 L-6 -15 Q0 -23 6 -15 L6 0 Z" fill="${G}"/><rect x="-8" y="-1" width="16" height="3" fill="#8A5F17"/><path d="M-3 -10 L3 -10" stroke="#8A5F17" stroke-width="1.2"/></g>`).join('')}
+    <g class="tentlit">
+      <circle cx="214" cy="124" r="26" fill="url(#pfire2)"/>
+      ${keep(214,136,.9)}
+    </g>
+    <defs><filter id="fog" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="9"/></filter></defs><ellipse class="whiteout" cx="120" cy="110" rx="118" ry="86" fill="#E7E7E7" filter="url(#fog)"/>
+    ${lbl(18,30,'AGREEMENTS ARE THE MILESTONES',G,.85)}
+  </svg>`})
+};
+
+const STATIONS = [
+ {id:'s-castle', art:'castle', c:'#A57626', cd:'#8A5F17', glow:'rgba(232,115,42,.35)',
+  num:'Station one', tag:'Safety', title:'What your kingdom stands for',
+  q:`A value you have never paid for is not a value. It's a preference.`,
+  body:[`Values aren't words you pick because they sound good on a wall. They're what you actually choose when choosing them costs you something. So don't start from a list. Start from the receipts.`,
+        `When have the two of you done the harder thing on purpose? What were you protecting? What's the thing you won't do, even when nobody would know? Where do you already feel guilt? Guilt is usually a value you crossed, pointing back at itself.`],
+  try:`Name five, in your own words. "We don't go to bed on it" beats "integrity." If you can't say what it looks like on a Tuesday, it isn't finished.`},
+ {id:'s-rope', art:'rope', c:'#7C2D50', cd:'#7C2D50', glow:'rgba(124,45,80,.55)',
+  num:'Station two', tag:'Agreements', title:'The rope, not the leash',
+  q:`Agreements are how two people climb roped together. Close enough to catch each other. Loose enough to actually climb.`,
+  body:[`The kingdom isn't only the castle. It's the mountains around it, the lakes, the roads, the people. Some of it you'll climb together. A verbal understanding is a rope you both think you tied. Write it down. Sign it, if you're the ceremonial type. Agreements aren't there to stop anyone from going anywhere. They're there so that when one of you slips, the other one feels it in time.`,
+        `And agreements get renegotiated. A rope that fit you at twenty-five will be the wrong length at forty-five. Renegotiating calmly at home is how you avoid cutting it in a storm.`],
+  try:`Each of you writes the three agreements you think you already have. Then compare. The gaps between the two lists are the most useful thing you'll read this year.`},
+ {id:'s-voice', art:'voice', c:'#C8242B', cd:'#A41E24', glow:'rgba(200,36,43,.4)',
+  num:'Station three', tag:'Hard truths', title:'The first-truest sentence',
+  q:`It's the difference from going, I'm gonna give you a piece of my mind, to let me share my perspective. There's a softening that happens. The heart softens, but the voice doesn't.`,
+  qby:'Christopher',
+  body:[`Most stuck things are stuck because what got said was the second-truest sentence. The presentable version. The one that protects you a little. Slow down until the first one surfaces.`,
+        `Softness and volume are not the same dial. You can say the hardest thing in your relationship with a soft heart and a clear, steady voice. What you can't do is say it from a dysregulated body, because then the voice goes up exponentially, and nobody has ever been shouted into feeling safe. Press the button on the plate and watch.`],
+  try:`Say it once. Fully, properly, and once. Saying it twice isn't clarifying, it's campaigning, and your partner can tell the difference even when you can't.`},
+ {id:'s-clock', art:'clock', c:'#E8732A', cd:'#B4561A', glow:'rgba(232,115,42,.4)',
+  num:'Station four', tag:'Fight language', title:'Hearth, tower, ride, or council',
+  q:`One of you needs to talk it out now. One goes quiet. One needs to move. One needs a guide. None of them is the correct way.`,
+  body:[`This is where most couples get stuck for a decade. The one at the hearth reads the silence as abandonment. The one in the tower reads the pursuit as an attack. Both are right about how it feels. Both are wrong about what it means.`,
+        `Then there's the one who goes to the council. In the heat of it, some people need to talk it out, just not with you. They don't feel safe processing it with the person they're fighting with, so they go find their footing with someone else first. That can be wise. It can also cost you. Three questions before you go:`,
+        `<ol class="counsel"><li><b>What does it do to the one at home?</b> The partner left behind can feel unsafe, talked about, outnumbered. Now there are two wounds instead of one.</li><li><b>Can this person really hold space for you?</b> Empathy, not a verdict. Someone who just takes your side isn't holding space. They're recruiting.</li><li><b>Do they have the relationship you want?</b> Advice carries the shape of the life it comes from. Go to the person whose marriage you'd want, not the one who'll agree with you.</li></ol>`,
+        `The agreement is the deadline. Whoever leaves, for the tower, the ride, or the council, names when they're coming back. And nobody has to guess.`],
+  try:`Use the finder just below the six stations. Then say your agreement out loud to each other, word for word.`},
+ {id:'s-compass', art:'compass', c:'#5FC0AE', cd:'#1F7A6B', glow:'rgba(95,192,174,.35)',
+  num:'Station five', tag:'Exploration', title:'True North is always home',
+  q:`I don't think that any of us are incomplete without somebody. I think we are complete. The one plus one is meant to equal the greater one.`,
+  qby:'Christopher',
+  body:[`Every couple who explores, whether that's a solo trip, a big calling, or other partners, will have a night when the needle spins. Jealousy, fear, the old story that you're about to be left. That's not a sign the exploration was wrong. It's a sign the compass is working.`,
+        `What matters is whether the needle settles. And it settles on whatever you built at home: the values you paid for, the agreements you wrote, the truths you told before you left.`,
+        `A kingdom has clearly defined markers, and you know every one of them, because you've spent your life building it, searching it, and enjoying the lands. You're meant to go out and explore it. The kingdom is not just the castle. It's the land around it, and its people.`,
+        `<blockquote class="tq">"You're not just a mom. You're not just my wife. You're a girlfriend, a lover, a daughter, a mother, a friend, a patron, a citizen. You're all of these things and you're none of them. I want you to explore all of them, and some of them you'll need to explore without me."<span style="display:block;margin-top:6px;font-family:var(--head);font-size:9.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-2)">Christopher, to Pixie</span></blockquote>`,
+        `Knowing how to get home is what makes that kind of exploring possible.`],
+  try:`Before anyone heads out, answer this together: what's the one call, text, or ritual that tells us we're both still home? Write it down.`},
+ {id:'s-milestones', art:'milestones', c:'#8FB0F0', cd:'#3E5FA8', glow:'rgba(143,176,240,.35)',
+  num:'Station six', tag:'Coming home', title:'How the house actually runs',
+  q:`Is it fair, or is it just familiar?`,
+  body:[`The least romantic station, and the one that prevents the most resentment. Resentment almost never comes from the big things. It comes from the invisible load one of you is carrying that neither of you ever named.`,
+        `You don't want to keep score in a relationship. But somebody in yours is keeping score right now, and it's usually the one who's overwhelmed. Often they're so deep in it they've stopped counting. They just know it's unfair.`,
+        `Food. Money. The calendar. The kids. The house. Travel. Rest, and whether it's ever actually honored. Out loud, on paper, who does what. These are the milestones on the road: small, boring stones that get you home when you can't see a thing.`],
+  try:`Each of you lists what you carry. Then swap lists and read the other one without defending yourself. Name out loud what you see your partner doing, and what it's worth to you. When the work is seen and valued, the scoreboard comes down on its own.`}
+];
+document.getElementById('stations').innerHTML = STATIONS.map(s => {
+  const a = ART[s.art]();
+  return `<article class="card" id="${s.id}" style="--c:${s.c};--cd:${s.cd};--glow:${s.glow}">
+    <div class="card-main">
+      <p class="num">${s.num} <span>· ${s.tag}</span></p>
+      <h3>${s.title}</h3>
+      <blockquote class="tq">${s.q}${s.qby?`<span style="display:block;margin-top:6px;font-family:var(--head);font-size:9.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-2)">${s.qby}</span>`:''}</blockquote>
+      ${s.body.map(p=>p.startsWith('<')?p:`<p>${p}</p>`).join('')}
+      <div class="try"><b>Try this in the kingdom</b>${s.try}</div>
+    </div>
+    <figure class="plate">${a.svg}<figcaption><small>${a.small}</small>${a.cap}</figcaption>${a.ctrl?`<div class="ctrl">${a.ctrl}</div>`:''}</figure>
+  </article>`;
+}).join('');
+
+/* The voice plate: dysregulate the heart and watch the voice. */
+document.querySelectorAll('[data-dys]').forEach(b => b.addEventListener('click', () => {
+  const on = b.getAttribute('aria-pressed') !== 'true';
+  b.setAttribute('aria-pressed', on);
+  const p = b.closest('.plate');
+  p.querySelector('.calm').style.opacity = on ? 0 : 1;
+  p.querySelector('.loud').style.opacity = on ? 1 : 0;
+  p.querySelector('.hb').style.animationDuration = on ? '.45s' : '2.6s';
+  p.querySelector('.hb').setAttribute('fill', on ? '#C8242B' : '#7C2D50');
+  p.querySelector('.vlbl').textContent = on ? 'VOICE · EXPONENTIAL' : 'VOICE · STEADY';
+  b.textContent = on ? 'Come back to the body' : 'Dysregulate the heart';
+}));
+
+/* ════════════════════════════════════════════════════════════════════
+   Fight language finder. Four ways home, ten pairings.
+   ════════════════════════════════════════════════════════════════════ */
+const pick = {a:null, b:null};
+const ORDER = ['fast','slow','move','guide'];
+const FIGHT = {
+  'fast|fast': [`Two hearths. Nobody's going up the tower, so the risk is the room getting too hot to hear anything.`, `Agreement: either of you can call a ten-minute walk, and the other one honors it without chasing. Then back to the hearth.`],
+  'slow|slow': [`Two towers. It's quiet in your house, maybe too quiet. The risk isn't the fight, it's the fight that never happens.`, `Agreement: the tower has a door with a time on it. Whoever goes up names when they're coming down, and the next morning is the latest that time can be.`],
+  'move|move': [`Two riders. You both need to burn it off first, which is great, as long as you don't ride off in opposite directions.`, `Agreement: ride it out, then walk it together. A lap of the block side by side is easier than a sofa face to face.`],
+  'guide|guide': [`Two of you heading to the council. Wise, if the council is good. The risk is hearing each other's story secondhand, through other people, before you ever hear it from each other.`, `Agreement: tell each other who you're talking to, and choose guides who want the marriage to win, not just you. The last word always happens at your own table.`],
+  'fast|slow': [`The classic. One of you reads silence as abandonment. The other reads pursuit as an attack.`, `Agreement: the hearth gets a time, the tower gets the space. "I need until tonight at eight." "Okay. I'll be here at eight." Then both of you keep it.`],
+  'fast|move': [`One of you wants the words now, the other needs the body to go first.`, `Agreement: take the talk outside. Walk and talk. The hearth gets the words, the rider gets the movement, and nobody has to sit still in a hot room.`],
+  'fast|guide': [`One of you wants the words now, and with you. The other needs to find their footing with someone else first, and to you that can feel like being talked about behind your back.`, `Agreement: name the who and the when. "I'm going to talk to someone we both trust, and I'll be back to you by dinner." The hearth gets a time, the council gets your blessing, and the one at home is never the last to know.`],
+  'slow|move': [`Both of you need time before you can talk. Different kinds of time.`, `Agreement: name the return, not the process. "I'm going to sit with it, you go run, kitchen table at seven." Whoever's back first puts the kettle on.`],
+  'slow|guide': [`One of you goes inward, the other goes outward. Both of you are taking time, and the risk is two separate stories that never meet.`, `Agreement: name the return, and keep the counsel clean. Bring home what you learned about yourself, not what someone else thinks of your partner.`],
+  'move|guide': [`Both of you need to leave the room before you can come back to it. One to move, one to talk.`, `Agreement: go, then come home to each other before anyone else hears the rest. The guide helps you find your footing. Your partner gets the conversation.`]
+};
+document.querySelectorAll('.opts').forEach(g => g.addEventListener('click', e => {
+  const b = e.target.closest('.opt'); if (!b) return;
+  g.querySelectorAll('.opt').forEach(x => x.setAttribute('aria-pressed', x === b));
+  pick[g.dataset.who] = b.dataset.v;
+  if (!pick.a || !pick.b) return;
+  const key = [pick.a, pick.b].sort((x,y)=>ORDER.indexOf(x)-ORDER.indexOf(y)).join('|');
+  const [read, agr] = FIGHT[key];
+  document.getElementById('verdict').innerHTML = `<small>Your agreement</small><p>${agr}</p><p class="sm">${read} Neither of you is the grown-up one here. You just speak different languages, and now you've got a phrasebook.</p>`;
+}));
+
+/* ════════════════════════════════════════════════════════════════════
+   The agreements, and the decrees of the court.
+   ════════════════════════════════════════════════════════════════════ */
+const AG = [
+  {t:'Speak from the heart', s:'Agreement one', p:'Say the real thing, not the presentable version of it.', m:'Most stuck things are stuck because what got said was the second-truest sentence. Slow down until the first one surfaces.'},
+  {t:'Listen from the heart', s:'Agreement two', p:'Not to answer. Not to correct the record.', m:'The urge to defend is the signal you\'ve stopped listening. It\'s the thing to notice, not the thing to follow.'},
+  {t:'Transparency with friends and family', s:'Agreement three', p:'What we\'ve healed, we can share.', m:'We keep a full transparency policy. Anything the two of us have processed and feel good about, we can share, because shame and guilt grow in the dark. Before we do, we check in: "Do we both feel complete on this?" Only on a yes does it go to family, to friends, or to the one person we think it might help.'},
+  {t:'Stay regulated', s:'Agreement four', p:'Either of us can call for a breath.', m:'When one of us feels dysregulation coming on, we call for a breath, or softly invite the other back into their heart with one. Nothing good gets decided from a body that\'s already left the room.'},
+  {t:'Remember to laugh', s:'Agreement five', p:'Let there be joy, fun, and presence.', m:'Find the joy. Find the humor. It doesn\'t need to be gloom and rainy days all the time. That\'s exhausting, and it isn\'t the point.'}
+];
+const COURT = [
+  {t:'Decide, or decide when', s:'A royal decree', p:'Deciding beats deliberating.', m:'"Not now, and we\'re talking about it on Sunday" is a decision. Letting it drift and calling that peace is not.'},
+  {t:'Our rules for the road', s:'Coming soon', p:'The agreements we actually live by, and how we got to each one.', m:'This card fills in soon. Only what we both say yes to goes here.'}
+];
+const agHTML = list => list.map(a => `
+  <button type="button" class="ag${list===COURT?' road':''}" aria-expanded="false">
+    <small>${a.s}</small><h4>${a.t}</h4><p>${a.p}</p><div class="more">${a.m}</div>
+  </button>`).join('');
+document.getElementById('agrid').innerHTML = agHTML(AG);
+document.getElementById('court').innerHTML = agHTML(COURT);
+document.querySelectorAll('#agrid, #court').forEach(el => el.addEventListener('click', e => {
+  const b = e.target.closest('.ag'); if (!b) return;
+  b.setAttribute('aria-expanded', b.getAttribute('aria-expanded') !== 'true');
+}));
+
+/* ════════════════════════════════════════════════════════════════════
+   Coherence ripple: the roles light up as each ring passes.
+   ════════════════════════════════════════════════════════════════════ */
+(function(){
+  const roles = ['Husband','Father','Son','Brother','Lover','Friend'];
+  const g = document.getElementById('roles');
+  g.innerHTML = roles.map((r,i) => {
+    const a = (-90 + i*60) * Math.PI/180, R = 150;
+    return `<text class="role" style="animation-delay:${(i*1.2).toFixed(1)}s" x="${(210+R*Math.cos(a)).toFixed(1)}" y="${(218+R*Math.sin(a)).toFixed(1)}">${r}</text>`;
+  }).join('');
+})();
+
+/* ════════════════════════════════════════════════════════════════════
+   The timeline. Pixie's moments wait for Pixie.
+   ════════════════════════════════════════════════════════════════════ */
+const TL = [
+  {y:'2005', sub:'January 4', h:'We meet', p:[`A pool party in Los Feliz, thrown by one of my best friends at the time. I saw her, turned to a friend of mine, and said, "Who is that?"`]},
+  {y:'2006', sub:'to 2009', h:'Dating, a home, a ring, a vow', p:[`We start dating in 2006, move in together in 2007, get engaged in 2008, and marry on May 15, 2009. Two people who loved each other and had no kingdom at all. We didn't know you needed one.`]},
+  {y:'2010', sub:'to 2014', h:'The whirlwind', p:[`Work explodes for me in 2010, and life starts to change beautifully. The next four years are a whirlwind of love, beauty, abundance, and amazingness.`]},
+  {y:'2015', sub:'and 2016', h:'Two sons', p:[`Our first son arrives in 2015. In 2016 we're blessed with our second.`]},
+  {y:'Before', sub:'2020', h:'The second life', p:[`"For eight years I cheated on my wife." I've said it on podcasts and in teaching rooms, and I'll say it here, because the roadmap was never supposed to be flawless. It was supposed to be real.`]},
+  {y:'2019', sub:'Fit for Service', h:'The coat of hypocrisy', p:[`I join a community called Fit for Service. Person after person tells me how beautiful my life is, my wife is, our relationship is. That's when I start to feel it: a heavy, thick coat of hypocrisy, because I'm out of alignment.`]},
+  {y:'2020', sub:'early', h:'The man at the art show', p:[`A friend shows up at an art show, and I ask him how he's doing. "Oh man, my life is a mess, but I'm completely liberated. I just came clean to my wife about my infidelity. I have no idea where it's going to go, and yet I've never felt so free. I'm praying every day that it works out."`, `It hit me like a ton of bricks. His life was a mess, and I envied him. I could see the freedom he was talking about.`]},
+  {y:'2020', sub:'December 6', h:'The truth', p:[`"I told her everything. Not to be forgiven, but to be free. She left for eight days. When she returned, we began walking the long, imperfect path of truth together."`]},
+  {y:'2021', sub:'14 months', h:'Speaking all of it', p:[`It took me the better part of fourteen months to get everything out. When the last of it was said, it was like the first time I could take a really deep breath.`]},
+    {y:'3 yrs', sub:'Thursdays, 8 PM', h:'The King and the Queen', p:[`For the next three years, the King and the Queen met every Thursday at 8:00 PM, until we didn't need to anymore. What happened this week. What it looked like. What it felt like. That's what a kingdom looks like before you know to call it one: a time, a place, and both of you showing up.`]},
+  {y:'2023', sub:'January', h:'Exploring from the kingdom', p:[`"When my wife and I decided to move to an open marriage, that was incredibly heart-expanding for me, as well as difficult at times. It didn't feel in alignment for me at that time to start dating others. It was my responsibility to come into love and coherence for myself, and that was such a beautiful and amazing gift: to feel that self-love."`]},
+  {y:'2023', sub:'September', h:'A new kingdom, in Costa Rica', p:[`We moved to Costa Rica: a chance to reset our lives and our family. We were both born and raised in L.A., forty-five years for me and thirty-nine for Pixie, and we needed a change of scenery. We needed to simplify, to slow things down, to get out of the hustle and bustle and closer to nature, to ourselves, to our boys.`, `That's what Costa Rica gave us. Ass in the grass, feet in the dirt. I get to walk out my door instead of taking a fourteen-minute drive down to the beach, and believe me, that matters.`]},
+      {y:'2026', sub:'January', h:'We wrote it down', p:[`Our agreements went on paper. Not because we stopped trusting each other, but because we finally trusted each other enough to be specific.`]},
+  {y:'Now', sub:'2026', h:'Better than we\'ve ever been', now:true, p:[`"We're not only back to where we were, we're better than we've ever been," and deeper than we ever thought we'd go. Twenty-one years in, we guide couples through the same building work, and we still come home to the castle every week.`]}
+];
+document.getElementById('timeline').innerHTML = TL.map(t => `
+  <li class="tl${t.now?' now':''}${t.pending?' pending':''}">
+    <div class="yr">${t.y}${t.sub?`<small>${t.sub}</small>`:''}</div>
+    <div><h4>${t.h}</h4>${t.p.map(x=>`<p>${x}</p>`).join('')}</div>
+  </li>`).join('');
+
+/* ════════════════════════════════════════════════════════════════════
+   Light up the section you're in.
+   ════════════════════════════════════════════════════════════════════ */
+(function(){
+  const links = [...document.querySelectorAll('.topnav a.nl')];
+  const map = new Map(links.map(a => [a.getAttribute('href').slice(1), a]));
+  const io = new IntersectionObserver(es => {
+    es.forEach(e => {
+      if (!e.isIntersecting) return;
+      links.forEach(a => a.classList.remove('on'));
+      const a = map.get(e.target.id); if (a) { a.classList.add('on'); a.scrollIntoView({block:'nearest', inline:'center'}); }
+    });
+  }, {rootMargin:'-45% 0px -50% 0px'});
+  map.forEach((a, id) => { const el = document.getElementById(id); if (el) io.observe(el); });
+})();
+</script>
+</body>
+</html>
