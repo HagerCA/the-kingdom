@@ -583,7 +583,7 @@ footer .small{max-width:46em;margin:22px auto 0;font-size:.8rem;line-height:1.6;
         <div class="opts" data-who="a">
           <button class="opt" type="button" data-v="fast"><small>The herald</small>Process and share it in real time</button>
           <button class="opt" type="button" data-v="slow"><small>The tower</small>Go quiet, sort it out alone, then come back</button>
-          <button class="opt" type="button" data-v="move"><small>Move now, talk later</small>Move my body first, then I can talk</button>
+          <button class="opt" type="button" data-v="move"><small>The knight</small>Move my body first, get the fight out, then I can talk</button>
           <button class="opt" type="button" data-v="guide"><small>The council</small>Find a guide to help me find my footing first</button>
         </div>
       </div>
@@ -593,7 +593,7 @@ footer .small{max-width:46em;margin:22px auto 0;font-size:.8rem;line-height:1.6;
         <div class="opts" data-who="b">
           <button class="opt" type="button" data-v="fast"><small>The herald</small>Process and share it in real time</button>
           <button class="opt" type="button" data-v="slow"><small>The tower</small>Go quiet, sort it out alone, then come back</button>
-          <button class="opt" type="button" data-v="move"><small>Move now, talk later</small>Move their body first, then they can talk</button>
+          <button class="opt" type="button" data-v="move"><small>The knight</small>Move their body first, get the fight out, then they can talk</button>
           <button class="opt" type="button" data-v="guide"><small>The council</small>Find a guide to help them find their footing first</button>
         </div>
       </div>
@@ -1041,12 +1041,12 @@ const STATIONS = [
         `<blockquote class="tq">"Where I got it wrong was not speaking all those truths. I was swallowing them, softening my voice instead of my heart. Where I get it right now: the truth doesn't need the perfect moment. The minute you feel it is the minute it needs to be said. You still pick your spots, but you're not waiting for the perfect time. If something true is heavy in my heart, I can't sleep until I've said it. That's what a clean relationship with your body feels like."<span style="display:block;margin-top:6px;font-family:var(--head);font-size:9.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-2)">Christopher</span></blockquote>`],
   try:`Say it once. Fully, properly, and once. Saying it twice isn't clarifying, it's campaigning, and your partner can tell the difference even when you can't.`},
  {id:'s-clock', art:'clock', c:'#E8732A', cd:'#B4561A', glow:'rgba(232,115,42,.4)',
-  num:'Station four', tag:'Fight language', title:'Herald, tower, move now, or council',
+  num:'Station four', tag:'Fight language', title:'Herald, tower, knight, or council',
   q:`One of you needs to share it in real time. One goes quiet. One needs to move. One needs a guide. None of them is the correct way.`,
   body:[`This is where most couples get stuck for a decade. The herald reads the silence as abandonment. The one in the tower reads the pursuit as an attack. Both are right about how it feels. Both are wrong about what it means.`,
         `Then there's the one who goes to the council. In the heat of it, some people need to talk it out, just not with you. They don't feel safe processing it with the person they're fighting with, so they go find their footing with someone else first. That can be wise. It can also cost you. Three questions before you go:`,
         `<ol class="counsel"><li><b>What does it do to the one at home?</b> The partner left behind can feel unsafe, talked about, outnumbered. Now there are two wounds instead of one.</li><li><b>Can this person really hold space for you?</b> Empathy, not a verdict. Someone who just takes your side isn't holding space. They're recruiting.</li><li><b>Do they have the relationship you want?</b> Advice carries the shape of the life it comes from. Go to the person whose marriage you'd want, not the one who'll agree with you.</li></ol>`,
-        `The agreement is the deadline. Whoever leaves, for the tower, a move, or the council, names when they're coming back. And nobody has to guess.`],
+        `The agreement is the deadline. Whoever leaves, for the tower, the knight's ride, or the council, names when they're coming back. And nobody has to guess.`],
   try:`Use the finder just below the six stations. Then say your agreement out loud to each other, word for word.`},
  {id:'s-compass', art:'compass', c:'#5FC0AE', cd:'#1F7A6B', glow:'rgba(95,192,174,.35)',
   num:'Station five', tag:'Exploration', title:'True North is always home',
@@ -1101,10 +1101,10 @@ const ORDER = ['fast','slow','move','guide'];
 const FIGHT = {
   'fast|fast': [`Two heralds. Nobody's going up the tower, so the risk is the room getting too hot to hear anything.`, `Agreement: either of you can call a ten-minute walk, and the other one honors it without chasing. Then back to the table.`],
   'slow|slow': [`Two towers. It's quiet in your house, maybe too quiet. The risk isn't the fight, it's the fight that never happens.`, `Agreement: the tower has a door with a time on it. Whoever goes up names when they're coming down, and the next morning is the latest that time can be.`],
-  'move|move': [`Two movers. You both need to burn it off first, which is great, as long as you don't move off in opposite directions.`, `Agreement: move first, then walk it together. A lap of the block side by side is easier than a sofa face to face.`],
+  'move|move': [`Two knights. You both need to burn it off first, which is great, as long as you don't ride off in opposite directions.`, `Agreement: ride it out first, then walk it together. A lap of the block side by side is easier than a sofa face to face.`],
   'guide|guide': [`Two of you heading to the council. Wise, if the council is good. The risk is hearing each other's story secondhand, through other people, before you ever hear it from each other.`, `Agreement: tell each other who you're talking to, and choose guides who want the marriage to win, not just you. The last word always happens at your own table.`],
   'fast|slow': [`The classic. One of you reads silence as abandonment. The other reads pursuit as an attack.`, `Agreement: the herald gets a time, the tower gets the space. "I need until tonight at eight." "Okay. I'll be here at eight." Then both of you keep it.`],
-  'fast|move': [`One of you wants the words now, the other needs the body to go first.`, `Agreement: take the talk outside. Walk and talk. The herald gets the words, the mover gets the movement, and nobody has to sit still in a hot room.`],
+  'fast|move': [`One of you wants the words now, the other needs the body to go first.`, `Agreement: take the talk outside. Walk and talk. The herald gets the words, the knight gets the movement, and nobody has to sit still in a hot room.`],
   'fast|guide': [`One of you wants the words now, and with you. The other needs to find their footing with someone else first, and to you that can feel like being talked about behind your back.`, `Agreement: name the who and the when. "I'm going to talk to someone we both trust, and I'll be back to you by dinner." The herald gets a time, the council gets your blessing, and the one at home is never the last to know.`],
   'slow|move': [`Both of you need time before you can talk. Different kinds of time.`, `Agreement: name the return, not the process. "I'm going to sit with it, you go run, kitchen table at seven." Whoever's back first puts the kettle on.`],
   'slow|guide': [`One of you goes inward, the other goes outward. Both of you are taking time, and the risk is two separate stories that never meet.`, `Agreement: name the return, and keep the counsel clean. Bring home what you learned about yourself, not what someone else thinks of your partner.`],
